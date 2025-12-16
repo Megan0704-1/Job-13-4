@@ -1,0 +1,21 @@
+benchmark,category,baseline_ms (-O3),optimized_ms (Your approach),
+BGEMM,GEMM,23955,23772.3601662664,Rerun
+GEMV,GEMM,280,254.624421651105,Rerun
+Transposed GEMM,GEMM,10080,10392.8230235468,Rerun
+Row reduce sum,Reduction,24010.0,23928.5046206521,
+Col reduce max,Reduction,24610.0,21993.6299653726,
+RMSNorm,Normalization,4080,3145.89047007855,
+LayerNorm,Normalization,4940,4020.33539683763,
+Pointwise Convolution,Convolution,23410,8874.33392200057,Rerun
+Depthwise Convolution,Convolution,20285,17435.0351582499,Rerun
+Convolution 2D,Convolution,5780,1230.29748475204,Rerun
+Avg pooling 2x2,Pooling,36110,35929.9006236478,
+Max pooling,Pooling,45565,46952.660839592,
+Naive Softmax,Softmax,8120,8973.98785477426,
+Online Softmax,Softmax,11775,11313.2956460186,
+topK,Selection,22980,18258.3821855266,
+MLP + Bias + ReLU,MLP,36335.0,13233.8966227313,
+MLP + Bias + GeLU,MLP,37555,35830.7522165064,Rerun
+Vanilla attention,Attention,30300.0,26079.4516856793,Rerun
+Multi-head attention,Attention,24390,24147.3154451422,Rerun
+Flash attention,Attention,31145,31955.800661852,Rerun

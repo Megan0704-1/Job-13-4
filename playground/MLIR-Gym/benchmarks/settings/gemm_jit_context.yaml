@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/GEMM/gemm.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "gemm"
+L0: 36515
+C0: 10
+B0: 2.15
+max_steps: 20

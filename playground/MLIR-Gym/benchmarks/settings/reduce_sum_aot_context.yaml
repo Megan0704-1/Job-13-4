@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/REDUCE_SUM/reduce_sum.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "reduce_sum"
+L0: 23520.0
+C0: 10
+B0: 1.55
+max_steps: 20

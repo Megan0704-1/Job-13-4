@@ -1,0 +1,7 @@
+bufferization.alloc_tensor
+bufferization.clone
+bufferization.dealloc
+bufferization.dealloc_tensor
+bufferization.materialize_in_destination
+bufferization.to_memref
+bufferization.to_tensor

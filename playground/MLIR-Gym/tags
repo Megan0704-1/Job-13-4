@@ -1,0 +1,1322 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AFFINE	mlir_env/core/immutable.py	/^    AFFINE = auto()$/;"	v	class:Phase
+AFFINE	mlir_env/views/spec.py	/^    AFFINE = "affine"$/;"	v	class:ViewKind
+ARITH	mlir_env/core/immutable.py	/^    ARITH = auto()$/;"	v	class:Phase
+AccessUse	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^class AccessUse:$/;"	c
+Accuracy	mlir_env/spec.py	/^    Accuracy = -2.3$/;"	v	class:Penalty
+Accuracy	mlir_env/spec.py	/^    Accuracy = 150$/;"	v	class:Success
+AccuracyError	backend/passes/include/mlir_termination_compile.h	/^  AccuracyError,           \/*output mismatch*\/$/;"	m	class:CompileErrorTypes
+Action	mlir_env/actions/action.py	/^class Action:$/;"	c
+ActionDescriptions	mlir_env/spec.py	/^class ActionDescriptions(Enum):$/;"	c
+ActionHistoryVector	mlir_env/actions/basic_injector.py	/^class ActionHistoryVector:$/;"	c
+ActionID	mlir_env/core/immutable.py	/^ActionID = NewType("ActionID", int)$/;"	v
+ActionLayer	mlir_env/actions/layer.py	/^class ActionLayer:$/;"	c
+ActionRegistry	mlir_env/actions/registry.py	/^class ActionRegistry:$/;"	c
+Actions	mlir_env/spec.py	/^class Actions(Enum):$/;"	c
+ActorCriticPolicy	mlir_env/agents/policy_based/policy/actor_critic.py	/^class ActorCriticPolicy(nn.Module):$/;"	c
+ActorCriticPolicyAgent	mlir_env/agents/policy_based/actor_critic_agent.py	/^class ActorCriticPolicyAgent(PolicyBasedAgent):$/;"	c
+AnalysisIntent	mlir_env/views/viewer.py	/^class AnalysisIntent:$/;"	c
+ArenaDtor	backend/service/compiler_service.pb.cc	/^void CompileRequest::ArenaDtor(void* object) {$/;"	f	class:CompileRequest
+ArenaDtor	backend/service/compiler_service.pb.cc	/^void CompileResponse::ArenaDtor(void* object) {$/;"	f	class:CompileResponse
+ArenaDtor	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::ArenaDtor(void* object) {$/;"	f	class:OptimizeRequest
+ArenaDtor	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::ArenaDtor(void* object) {$/;"	f	class:OptimizeResponse
+ArenaDtor	backend/service/compiler_service.pb.cc	/^void runRequest::ArenaDtor(void* object) {$/;"	f	class:runRequest
+ArenaDtor	backend/service/compiler_service.pb.cc	/^void runResponse::ArenaDtor(void* object) {$/;"	f	class:runResponse
+ArrayLayout	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^class ArrayLayout:$/;"	c
+AsyncCompileCode	backend/service/compiler_service.grpc.pb.h	/^    AsyncCompileCode(::grpc::ClientContext* context,$/;"	f	class:final::StubInterface
+AsyncCompileCode	backend/service/compiler_service.grpc.pb.h	/^    AsyncCompileCode(::grpc::ClientContext* context,$/;"	f	class:final::final
+AsyncCompileCodeRaw	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Stub::AsyncCompileCodeRaw(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+AsyncOptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    AsyncOptimizeCode(::grpc::ClientContext* context,$/;"	f	class:final::StubInterface
+AsyncOptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    AsyncOptimizeCode(::grpc::ClientContext* context,$/;"	f	class:final::final
+AsyncOptimizeCodeRaw	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Stub::AsyncOptimizeCodeRaw(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+AsyncService	backend/service/compiler_service.grpc.pb.h	/^      AsyncService;$/;"	t	class:final
+AsyncrunCode	backend/service/compiler_service.grpc.pb.h	/^    AsyncrunCode(::grpc::ClientContext* context, const ::runRequest& request,$/;"	f	class:final::StubInterface
+AsyncrunCode	backend/service/compiler_service.grpc.pb.h	/^    AsyncrunCode(::grpc::ClientContext* context, const ::runRequest& request,$/;"	f	class:final::final
+AsyncrunCodeRaw	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Stub::AsyncrunCodeRaw(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+AttentionPooling	mlir_env/agents/policy_based/policy/actor_critic.py	/^class AttentionPooling(nn.Module):$/;"	c
+AttentionPooling	mlir_env/agents/policy_based/policy/mlp.py	/^class AttentionPooling(nn.Module):$/;"	c
+BYTE_SIZE	mlir_env/spec.py	/^    BYTE_SIZE = "ByteSizeReward"$/;"	v	class:Rewards
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::ExperimentalWithCallbackMethod_CompileCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::ExperimentalWithCallbackMethod_OptimizeCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::ExperimentalWithCallbackMethod_runCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::ExperimentalWithRawCallbackMethod_CompileCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::ExperimentalWithRawCallbackMethod_OptimizeCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::ExperimentalWithRawCallbackMethod_runCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithAsyncMethod_CompileCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithAsyncMethod_OptimizeCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithAsyncMethod_runCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithGenericMethod_CompileCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithGenericMethod_OptimizeCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithGenericMethod_runCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithRawMethod_CompileCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithRawMethod_OptimizeCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithRawMethod_runCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithStreamedUnaryMethod_CompileCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithStreamedUnaryMethod_OptimizeCode
+BaseClassMustBeDerivedFromService	backend/service/compiler_service.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service* \/*service*\/) {}$/;"	f	class:final::WithStreamedUnaryMethod_runCode
+BinaryType	mlir_env/spec.py	/^    BinaryType = -1.8$/;"	v	class:Penalty
+BinaryType	mlir_env/spec.py	/^    BinaryType = 12.5$/;"	v	class:Success
+BinaryTypeError	backend/passes/include/mlir_termination_compile.h	/^  BinaryTypeError,         \/*binary is un-executable*\/$/;"	m	class:CompileErrorTypes
+ByteSizeLong	backend/service/compiler_service.pb.cc	/^size_t CompileRequest::ByteSizeLong() const {$/;"	f	class:CompileRequest
+ByteSizeLong	backend/service/compiler_service.pb.cc	/^size_t CompileResponse::ByteSizeLong() const {$/;"	f	class:CompileResponse
+ByteSizeLong	backend/service/compiler_service.pb.cc	/^size_t OptimizeRequest::ByteSizeLong() const {$/;"	f	class:OptimizeRequest
+ByteSizeLong	backend/service/compiler_service.pb.cc	/^size_t OptimizeResponse::ByteSizeLong() const {$/;"	f	class:OptimizeResponse
+ByteSizeLong	backend/service/compiler_service.pb.cc	/^size_t runRequest::ByteSizeLong() const {$/;"	f	class:runRequest
+ByteSizeLong	backend/service/compiler_service.pb.cc	/^size_t runResponse::ByteSizeLong() const {$/;"	f	class:runResponse
+CF	mlir_env/core/immutable.py	/^    CF = auto()$/;"	v	class:Phase
+CHANGED_IR	tests/test_actions_executor_and_runner_mock.py	/^CHANGED_IR = "module { \/\/ changed\\n func.func @f() { return } }"$/;"	v
+CHK_	backend/service/compiler_service.pb.cc	1192;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	1245;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	1450;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	1490;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	1671;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	1713;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	380;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	435;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	659;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	712;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	917;"	d	file:
+CHK_	backend/service/compiler_service.pb.cc	975;"	d	file:
+CLANG_MLIR_TOOLCHAIN_H	backend/passes/include/clang_mlir_toolchain.h	2;"	d
+CallbackService	backend/service/compiler_service.grpc.pb.h	/^      CallbackService;$/;"	t	class:final
+ClangCompiler	backend/passes/include/clang_mlir_toolchain.h	/^  ClangCompiler(CompilerConfig config) : config(std::move(config)) { reset(); }$/;"	f	class:ClangCompiler
+ClangCompiler	backend/passes/include/clang_mlir_toolchain.h	/^class ClangCompiler {$/;"	c
+ClangCompilerTest	backend/tests/mlirGym_test/test_clang_mlir_toolchain.cpp	/^class ClangCompilerTest : public ::testing::Test {$/;"	c	file:
+Clear	backend/service/compiler_service.pb.cc	/^void CompileRequest::Clear() {$/;"	f	class:CompileRequest
+Clear	backend/service/compiler_service.pb.cc	/^void CompileResponse::Clear() {$/;"	f	class:CompileResponse
+Clear	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::Clear() {$/;"	f	class:OptimizeRequest
+Clear	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::Clear() {$/;"	f	class:OptimizeResponse
+Clear	backend/service/compiler_service.pb.cc	/^void runRequest::Clear() {$/;"	f	class:runRequest
+Clear	backend/service/compiler_service.pb.cc	/^void runResponse::Clear() {$/;"	f	class:runResponse
+CommandSpec	mlir_env/actions/executor.py	/^class CommandSpec:$/;"	c
+CompilationError	backend/passes/include/mlir_termination_compile.h	/^  CompilationError,        \/*clang compilation error*\/$/;"	m	class:CompileErrorTypes
+CompileCode	backend/service/compiler_service.grpc.pb.cc	/^::grpc::Status MLIRService::Service::CompileCode($/;"	f	class:MLIRService::Service
+CompileCode	backend/service/compiler_service.grpc.pb.cc	/^::grpc::Status MLIRService::Stub::CompileCode(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+CompileCode	backend/service/compiler_service.grpc.pb.cc	/^void MLIRService::Stub::experimental_async::CompileCode($/;"	f	class:MLIRService::Stub::experimental_async
+CompileCode	backend/service/compiler_service.grpc.pb.h	/^    virtual ::grpc::ServerUnaryReactor* CompileCode($/;"	f	class:final::ExperimentalWithCallbackMethod_CompileCode
+CompileCode	backend/service/compiler_service.grpc.pb.h	/^    virtual ::grpc::ServerUnaryReactor* CompileCode($/;"	f	class:final::ExperimentalWithRawCallbackMethod_CompileCode
+CompileCode	backend/service/compiler_service_pb2_grpc.py	/^    def CompileCode($/;"	m	class:CompilerService
+CompileCode	backend/service/compiler_service_pb2_grpc.py	/^    def CompileCode(self, request, context):$/;"	m	class:CompilerServiceServicer
+CompileErrorTypes	backend/passes/include/mlir_termination_compile.h	/^enum class CompileErrorTypes {$/;"	c
+CompileRequest	backend/service/compiler_service.pb.cc	/^CompileRequest::CompileRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)$/;"	f	class:CompileRequest
+CompileRequest	backend/service/compiler_service.pb.cc	/^CompileRequest::CompileRequest(const CompileRequest& from)$/;"	f	class:CompileRequest
+CompileRequest	backend/service/compiler_service.pb.h	/^  CompileRequest(CompileRequest&& from) noexcept : CompileRequest() {$/;"	f	class:PROTOBUF_FINAL
+CompileRequest	backend/service/compiler_service.pb.h	/^  inline CompileRequest() : CompileRequest(nullptr){};$/;"	f	class:PROTOBUF_FINAL
+CompileRequest	backend/service/compiler_service_pb2.py	/^CompileRequest = _reflection.GeneratedProtocolMessageType($/;"	v
+CompileRequestDefaultTypeInternal	backend/service/compiler_service.pb.cc	/^class CompileRequestDefaultTypeInternal {$/;"	c	file:
+CompileResponse	backend/service/compiler_service.pb.cc	/^CompileResponse::CompileResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)$/;"	f	class:CompileResponse
+CompileResponse	backend/service/compiler_service.pb.cc	/^CompileResponse::CompileResponse(const CompileResponse& from)$/;"	f	class:CompileResponse
+CompileResponse	backend/service/compiler_service.pb.h	/^  CompileResponse(CompileResponse&& from) noexcept : CompileResponse() {$/;"	f	class:PROTOBUF_FINAL
+CompileResponse	backend/service/compiler_service.pb.h	/^  inline CompileResponse() : CompileResponse(nullptr){};$/;"	f	class:PROTOBUF_FINAL
+CompileResponse	backend/service/compiler_service_pb2.py	/^CompileResponse = _reflection.GeneratedProtocolMessageType($/;"	v
+CompileResponseDefaultTypeInternal	backend/service/compiler_service.pb.cc	/^class CompileResponseDefaultTypeInternal {$/;"	c	file:
+CompileResult	backend/passes/include/mlir_termination_compile.h	/^struct CompileResult {$/;"	s
+CompileTime	mlir_env/spec.py	/^    CompileTime = -15.4$/;"	v	class:Penalty
+CompileTime	mlir_env/spec.py	/^    CompileTime = 27$/;"	v	class:Success
+CompilerConfig	backend/passes/include/clang_mlir_toolchain.h	/^struct CompilerConfig {$/;"	s
+CompilerService	backend/service/compiler_service_pb2_grpc.py	/^class CompilerService:$/;"	c
+CompilerServiceServicer	backend/service/compiler_service_pb2_grpc.py	/^class CompilerServiceServicer:$/;"	c
+CompilerServiceStub	backend/service/compiler_service_pb2_grpc.py	/^class CompilerServiceStub:$/;"	c
+Config	mlir_env/core/config.py	/^class Config:$/;"	c
+CopyFrom	backend/service/compiler_service.pb.cc	/^void CompileRequest::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:CompileRequest
+CopyFrom	backend/service/compiler_service.pb.cc	/^void CompileRequest::CopyFrom(const CompileRequest& from) {$/;"	f	class:CompileRequest
+CopyFrom	backend/service/compiler_service.pb.cc	/^void CompileResponse::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:CompileResponse
+CopyFrom	backend/service/compiler_service.pb.cc	/^void CompileResponse::CopyFrom(const CompileResponse& from) {$/;"	f	class:CompileResponse
+CopyFrom	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:OptimizeRequest
+CopyFrom	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::CopyFrom(const OptimizeRequest& from) {$/;"	f	class:OptimizeRequest
+CopyFrom	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:OptimizeResponse
+CopyFrom	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::CopyFrom(const OptimizeResponse& from) {$/;"	f	class:OptimizeResponse
+CopyFrom	backend/service/compiler_service.pb.cc	/^void runRequest::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:runRequest
+CopyFrom	backend/service/compiler_service.pb.cc	/^void runRequest::CopyFrom(const runRequest& from) {$/;"	f	class:runRequest
+CopyFrom	backend/service/compiler_service.pb.cc	/^void runResponse::CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:runResponse
+CopyFrom	backend/service/compiler_service.pb.cc	/^void runResponse::CopyFrom(const runResponse& from) {$/;"	f	class:runResponse
+CreateMaybeMessage	backend/service/compiler_service.pb.cc	/^Arena::CreateMaybeMessage<::CompileResponse>(Arena* arena) {$/;"	f	class:Arena
+CreateMaybeMessage	backend/service/compiler_service.pb.cc	/^Arena::CreateMaybeMessage<::OptimizeRequest>(Arena* arena) {$/;"	f	class:Arena
+CreateMaybeMessage	backend/service/compiler_service.pb.cc	/^Arena::CreateMaybeMessage<::OptimizeResponse>(Arena* arena) {$/;"	f	class:Arena
+CreateMaybeMessage	backend/service/compiler_service.pb.cc	/^PROTOBUF_NOINLINE ::CompileRequest* Arena::CreateMaybeMessage<::CompileRequest>($/;"	f	class:Arena
+CreateMaybeMessage	backend/service/compiler_service.pb.cc	/^PROTOBUF_NOINLINE ::runRequest* Arena::CreateMaybeMessage<::runRequest>($/;"	f	class:Arena
+CreateMaybeMessage	backend/service/compiler_service.pb.cc	/^PROTOBUF_NOINLINE ::runResponse* Arena::CreateMaybeMessage<::runResponse>($/;"	f	class:Arena
+DESCRIPTOR	backend/service/compiler_service_pb2.py	/^DESCRIPTOR = _descriptor.FileDescriptor($/;"	v
+DUMMY_IR	tests/test_actions_executor_and_runner_mock.py	/^DUMMY_IR = "module { func.func @f() { return } }"$/;"	v
+DYNAMIC_VAL	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^DYNAMIC_VAL = mlir_ir.ShapedType.get_dynamic_size()$/;"	v
+DependencyNotFound	mlir_env/spec.py	/^    DependencyNotFound = -18$/;"	v	class:Penalty
+DependencyNotFoundError	backend/passes/include/mlir_termination_compile.h	/^  DependencyNotFoundError, \/*raise when clang not found in sys path*\/$/;"	m	class:CompileErrorTypes
+DestructorSkippable_	backend/service/compiler_service.pb.h	/^  typedef void DestructorSkippable_;$/;"	t	class:PROTOBUF_FINAL
+DummyCfg	tests/test_actions_evalrunner_unit.py	/^class DummyCfg:$/;"	c
+DummyCfg	tests/test_actions_layer_unit.py	/^class DummyCfg:$/;"	c
+DummyCtx	tests/reward_classes/test_final_log_speedup.py	/^class DummyCtx:$/;"	c
+DummyCtx	tests/test_actions_evalrunner_unit.py	/^class DummyCtx:$/;"	c
+DummyCtx	tests/test_actions_layer_unit.py	/^class DummyCtx:$/;"	c
+DummyCtx	tests/test_rewards_rewarder.py	/^class DummyCtx:$/;"	c
+DummyMetrics	tests/reward_classes/test_final_log_speedup.py	/^class DummyMetrics:$/;"	c
+ERROR	mlir_env/core/immutable.py	/^    ERROR = False$/;"	v	class:Status
+E_EVAL_FAILED	mlir_env/core/immutable.py	/^    E_EVAL_FAILED = auto()$/;"	v	class:ErrorBits
+E_FAILED	mlir_env/core/immutable.py	/^    E_FAILED = auto()$/;"	v	class:ErrorBits
+E_MASKED	mlir_env/core/immutable.py	/^    E_MASKED = auto()$/;"	v	class:ErrorBits
+E_TIMEDOUT	mlir_env/core/immutable.py	/^    E_TIMEDOUT = auto()$/;"	v	class:ErrorBits
+EpisodeContext	mlir_env/core/context.py	/^class EpisodeContext:$/;"	c
+ErrorBits	mlir_env/core/immutable.py	/^class ErrorBits(IntFlag):$/;"	c
+EvalRunner	mlir_env/actions/runner.py	/^class EvalRunner:$/;"	c
+ExecResult	mlir_env/actions/executor.py	/^class ExecResult:$/;"	c
+ExecutionTime	mlir_env/spec.py	/^    ExecutionTime = -5.4$/;"	v	class:Penalty
+ExecutionTime	mlir_env/spec.py	/^    ExecutionTime = 50$/;"	v	class:Success
+ExecutionTimeError	backend/passes/include/mlir_termination_compile.h	/^  ExecutionTimeError,      \/*generate crashed binary*\/$/;"	m	class:CompileErrorTypes
+ExperimentalCallbackService	backend/service/compiler_service.grpc.pb.h	/^      ExperimentalCallbackService;$/;"	t	class:final
+ExperimentalWithCallbackMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^    ExperimentalWithCallbackMethod_CompileCode() {$/;"	f	class:final::ExperimentalWithCallbackMethod_CompileCode
+ExperimentalWithCallbackMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^  class ExperimentalWithCallbackMethod_CompileCode : public BaseClass {$/;"	c	class:final
+ExperimentalWithCallbackMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    ExperimentalWithCallbackMethod_OptimizeCode() {$/;"	f	class:final::ExperimentalWithCallbackMethod_OptimizeCode
+ExperimentalWithCallbackMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^  class ExperimentalWithCallbackMethod_OptimizeCode : public BaseClass {$/;"	c	class:final
+ExperimentalWithCallbackMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^    ExperimentalWithCallbackMethod_runCode() {$/;"	f	class:final::ExperimentalWithCallbackMethod_runCode
+ExperimentalWithCallbackMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^  class ExperimentalWithCallbackMethod_runCode : public BaseClass {$/;"	c	class:final
+ExperimentalWithRawCallbackMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^    ExperimentalWithRawCallbackMethod_CompileCode() {$/;"	f	class:final::ExperimentalWithRawCallbackMethod_CompileCode
+ExperimentalWithRawCallbackMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^  class ExperimentalWithRawCallbackMethod_CompileCode : public BaseClass {$/;"	c	class:final
+ExperimentalWithRawCallbackMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    ExperimentalWithRawCallbackMethod_OptimizeCode() {$/;"	f	class:final::ExperimentalWithRawCallbackMethod_OptimizeCode
+ExperimentalWithRawCallbackMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^  class ExperimentalWithRawCallbackMethod_OptimizeCode : public BaseClass {$/;"	c	class:final
+ExperimentalWithRawCallbackMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^    ExperimentalWithRawCallbackMethod_runCode() {$/;"	f	class:final::ExperimentalWithRawCallbackMethod_runCode
+ExperimentalWithRawCallbackMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^  class ExperimentalWithRawCallbackMethod_runCode : public BaseClass {$/;"	c	class:final
+FAIL1	mlir_env/spec.py	/^    FAIL1 = "--convert-vector-to-spirv"$/;"	v	class:Actions
+FAIL2	mlir_env/spec.py	/^    FAIL2 = "--sparse-tensor-codege"$/;"	v	class:Actions
+FUNC	mlir_env/core/immutable.py	/^    FUNC = auto()$/;"	v	class:Phase
+FakeEvalRunner	tests/test_actions_layer_unit.py	/^class FakeEvalRunner:$/;"	c
+FakeExecResult	tests/test_actions_evalrunner_unit.py	/^class FakeExecResult:$/;"	c
+FakeExecutor	tests/test_actions_evalrunner_unit.py	/^class FakeExecutor:$/;"	c
+FakePassRunner	tests/test_actions_layer_unit.py	/^class FakePassRunner:$/;"	c
+FileIO	mlir_env/spec.py	/^    FileIO = -2.9$/;"	v	class:Penalty
+FileIO	mlir_env/spec.py	/^    FileIO = 8.25$/;"	v	class:Success
+FileIOError	backend/passes/include/mlir_termination_compile.h	/^  FileIOError,$/;"	m	class:CompileErrorTypes
+FinalReward	mlir_env/rewards/interface.py	/^class FinalReward(ABC):$/;"	c
+ForwardMethodWrapper	mlir_env/core/decorator/forward_method.py	/^class ForwardMethodWrapper(Wrapper):$/;"	c
+FullMessageName	backend/service/compiler_service.pb.h	/^  static ::PROTOBUF_NAMESPACE_ID::StringPiece FullMessageName() {$/;"	f	class:PROTOBUF_FINAL
+GOOGLE_PROTOBUF_INCLUDED_compiler_5fservice_2eproto	backend/service/compiler_service.pb.h	5;"	d
+GRPC_GENERATED_VERSION	backend/service/compiler_service_pb2_grpc.py	/^GRPC_GENERATED_VERSION = "1.69.0"$/;"	v
+GRPC_VERSION	backend/service/compiler_service_pb2_grpc.py	/^GRPC_VERSION = grpc.__version__$/;"	v
+GRPC_compiler_5fservice_2eproto__INCLUDED	backend/service/compiler_service.grpc.pb.h	8;"	d
+GetDescriptor	backend/service/compiler_service.pb.h	/^  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* GetDescriptor() {$/;"	f	class:PROTOBUF_FINAL
+GetIR	backend/service/compiler_service_pb2_grpc.py	/^    def GetIR($/;"	m	class:CompilerService
+GetIR	backend/service/compiler_service_pb2_grpc.py	/^    def GetIR(self, request, context):$/;"	m	class:CompilerServiceServicer
+GetMetadata	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::Metadata CompileRequest::GetMetadata() const {$/;"	f	class:CompileRequest
+GetMetadata	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::Metadata CompileResponse::GetMetadata() const {$/;"	f	class:CompileResponse
+GetMetadata	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::Metadata OptimizeRequest::GetMetadata() const {$/;"	f	class:OptimizeRequest
+GetMetadata	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::Metadata OptimizeResponse::GetMetadata() const {$/;"	f	class:OptimizeResponse
+GetMetadata	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::Metadata runRequest::GetMetadata() const {$/;"	f	class:runRequest
+GetMetadata	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::Metadata runResponse::GetMetadata() const {$/;"	f	class:runResponse
+GetMetadataStatic	backend/service/compiler_service.pb.h	/^  static ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadataStatic() {$/;"	f	class:PROTOBUF_FINAL
+GetReflection	backend/service/compiler_service.pb.h	/^  static const ::PROTOBUF_NAMESPACE_ID::Reflection* GetReflection() {$/;"	f	class:PROTOBUF_FINAL
+GradientHistoryVector	mlir_env/actions/basic_injector.py	/^class GradientHistoryVector:$/;"	c
+HardwareParams	mlir_env/observations/classes/SV/immutable.py	/^class HardwareParams:$/;"	c
+IR_LEN	mlir_env/spec.py	/^    IR_LEN = "IRLenReward"$/;"	v	class:Rewards
+IR_STR	mlir_env/spec.py	/^    IR_STR = "IRStringState"$/;"	v	class:Observations
+Info	mlir_env/core/immutable.py	/^class Info:$/;"	c
+InitAsDefaultInstance	backend/service/compiler_service.pb.cc	/^void CompileRequest::InitAsDefaultInstance() {}$/;"	f	class:CompileRequest
+InitAsDefaultInstance	backend/service/compiler_service.pb.cc	/^void CompileResponse::InitAsDefaultInstance() {}$/;"	f	class:CompileResponse
+InitAsDefaultInstance	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::InitAsDefaultInstance() {}$/;"	f	class:OptimizeRequest
+InitAsDefaultInstance	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::InitAsDefaultInstance() {}$/;"	f	class:OptimizeResponse
+InitAsDefaultInstance	backend/service/compiler_service.pb.cc	/^void runRequest::InitAsDefaultInstance() {}$/;"	f	class:runRequest
+InitAsDefaultInstance	backend/service/compiler_service.pb.cc	/^void runResponse::InitAsDefaultInstance() {}$/;"	f	class:runResponse
+InitDefaultsscc_info_CompileRequest_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^static void InitDefaultsscc_info_CompileRequest_compiler_5fservice_2eproto() {$/;"	f	file:
+InitDefaultsscc_info_CompileResponse_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^static void InitDefaultsscc_info_CompileResponse_compiler_5fservice_2eproto() {$/;"	f	file:
+InitDefaultsscc_info_OptimizeRequest_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^static void InitDefaultsscc_info_OptimizeRequest_compiler_5fservice_2eproto() {$/;"	f	file:
+InitDefaultsscc_info_OptimizeResponse_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^static void InitDefaultsscc_info_OptimizeResponse_compiler_5fservice_2eproto() {$/;"	f	file:
+InitDefaultsscc_info_runRequest_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^static void InitDefaultsscc_info_runRequest_compiler_5fservice_2eproto() {$/;"	f	file:
+InitDefaultsscc_info_runResponse_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^static void InitDefaultsscc_info_runResponse_compiler_5fservice_2eproto() {$/;"	f	file:
+InternalArenaConstructable_	backend/service/compiler_service.pb.h	/^  typedef void InternalArenaConstructable_;$/;"	t	class:PROTOBUF_FINAL
+InternalSwap	backend/service/compiler_service.pb.cc	/^void CompileRequest::InternalSwap(CompileRequest* other) {$/;"	f	class:CompileRequest
+InternalSwap	backend/service/compiler_service.pb.cc	/^void CompileResponse::InternalSwap(CompileResponse* other) {$/;"	f	class:CompileResponse
+InternalSwap	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::InternalSwap(OptimizeRequest* other) {$/;"	f	class:OptimizeRequest
+InternalSwap	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::InternalSwap(OptimizeResponse* other) {$/;"	f	class:OptimizeResponse
+InternalSwap	backend/service/compiler_service.pb.cc	/^void runRequest::InternalSwap(runRequest* other) {$/;"	f	class:runRequest
+InternalSwap	backend/service/compiler_service.pb.cc	/^void runResponse::InternalSwap(runResponse* other) {$/;"	f	class:runResponse
+IsInitialized	backend/service/compiler_service.pb.cc	/^bool CompileRequest::IsInitialized() const { return true; }$/;"	f	class:CompileRequest
+IsInitialized	backend/service/compiler_service.pb.cc	/^bool CompileResponse::IsInitialized() const { return true; }$/;"	f	class:CompileResponse
+IsInitialized	backend/service/compiler_service.pb.cc	/^bool OptimizeRequest::IsInitialized() const { return true; }$/;"	f	class:OptimizeRequest
+IsInitialized	backend/service/compiler_service.pb.cc	/^bool OptimizeResponse::IsInitialized() const { return true; }$/;"	f	class:OptimizeResponse
+IsInitialized	backend/service/compiler_service.pb.cc	/^bool runRequest::IsInitialized() const { return true; }$/;"	f	class:runRequest
+IsInitialized	backend/service/compiler_service.pb.cc	/^bool runResponse::IsInitialized() const { return true; }$/;"	f	class:runResponse
+LINALG	mlir_env/core/immutable.py	/^    LINALG = auto()$/;"	v	class:Phase
+LLVM	mlir_env/core/immutable.py	/^    LLVM = auto()$/;"	v	class:Phase
+LLVM_INST_CNT	mlir_env/spec.py	/^    LLVM_INST_CNT = "LLVMInstCountReward"$/;"	v	class:Rewards
+LOOP_OP_NAMES	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^LOOP_OP_NAMES = ("affine.for", "scf.for", "scf.parallel", "affine.parallel")$/;"	v
+LogSpeedup	mlir_env/rewards/finals/log_speedup.py	/^class LogSpeedup(FinalReward):$/;"	c
+LoopInfo	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^class LoopInfo:$/;"	c
+LoopInfoOut	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^class LoopInfoOut:$/;"	c
+LoopInformationExtractor	mlir_env/observations/classes/SV/analysis/loop_analysis.py	/^class LoopInformationExtractor:$/;"	c
+LoopParams	mlir_env/observations/classes/SV/immutable.py	/^class LoopParams:$/;"	c
+LoweringError	backend/passes/include/mlir_termination_compile.h	/^  LoweringError,$/;"	m	class:CompileErrorTypes
+MATH	mlir_env/core/immutable.py	/^    MATH = auto()$/;"	v	class:Phase
+MEMREF	mlir_env/core/immutable.py	/^    MEMREF = auto()$/;"	v	class:Phase
+MEMREF	mlir_env/views/spec.py	/^    MEMREF = "memref"$/;"	v	class:ViewKind
+MEM_OP_NAMES	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^MEM_OP_NAMES = ("affine.load", "affine.store")$/;"	v
+MLIRGymCompiler	backend/passes/include/mlir_termination_compile.h	/^  MLIRGymCompiler(const std::string &inputIR, const std::string &output,$/;"	f	class:MLIRGymCompiler
+MLIRGymCompiler	backend/passes/include/mlir_termination_compile.h	/^class MLIRGymCompiler {$/;"	c
+MLIRGymCompilerTest	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^class MLIRGymCompilerTest : public ::testing::Test {$/;"	c	file:
+MLIRService_method_names	backend/service/compiler_service.grpc.pb.cc	/^static const char* MLIRService_method_names[] = {$/;"	v	file:
+MLIRWorldEnv	mlir_env/core/mlir_world.py	/^class MLIRWorldEnv(gym.Env):$/;"	c
+MLIR_TERMINATION_COMPILE_H	backend/passes/include/mlir_termination_compile.h	2;"	d
+MLPPolicy	mlir_env/agents/policy_based/policy/mlp.py	/^class MLPPolicy(nn.Module):$/;"	c
+MLPPolicyAgent	mlir_env/agents/policy_based/mlp_agent.py	/^class MLPPolicyAgent(PolicyBasedAgent):$/;"	c
+MODULES	tests/test_packages_exists.py	/^MODULES = ["mlir"]$/;"	v
+MemParams	mlir_env/observations/classes/SV/immutable.py	/^class MemParams:$/;"	c
+MemoryFeatures	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^class MemoryFeatures:$/;"	c
+MemoryInformationExtractor	mlir_env/observations/classes/SV/analysis/memory_analysis.py	/^class MemoryInformationExtractor:$/;"	c
+MergeFrom	backend/service/compiler_service.pb.cc	/^void CompileRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:CompileRequest
+MergeFrom	backend/service/compiler_service.pb.cc	/^void CompileRequest::MergeFrom(const CompileRequest& from) {$/;"	f	class:CompileRequest
+MergeFrom	backend/service/compiler_service.pb.cc	/^void CompileResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:CompileResponse
+MergeFrom	backend/service/compiler_service.pb.cc	/^void CompileResponse::MergeFrom(const CompileResponse& from) {$/;"	f	class:CompileResponse
+MergeFrom	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:OptimizeRequest
+MergeFrom	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::MergeFrom(const OptimizeRequest& from) {$/;"	f	class:OptimizeRequest
+MergeFrom	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:OptimizeResponse
+MergeFrom	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::MergeFrom(const OptimizeResponse& from) {$/;"	f	class:OptimizeResponse
+MergeFrom	backend/service/compiler_service.pb.cc	/^void runRequest::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:runRequest
+MergeFrom	backend/service/compiler_service.pb.cc	/^void runRequest::MergeFrom(const runRequest& from) {$/;"	f	class:runRequest
+MergeFrom	backend/service/compiler_service.pb.cc	/^void runResponse::MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) {$/;"	f	class:runResponse
+MergeFrom	backend/service/compiler_service.pb.cc	/^void runResponse::MergeFrom(const runResponse& from) {$/;"	f	class:runResponse
+Metrics	mlir_env/core/immutable.py	/^class Metrics:$/;"	c
+MetricsLogger	mlir_env/utils/logger.py	/^class MetricsLogger:$/;"	c
+ModuleView	mlir_env/views/viewer.py	/^class ModuleView:$/;"	c
+N	run.py	/^N = 17$/;"	v
+NONE	mlir_env/core/immutable.py	/^    NONE = 0$/;"	v	class:ErrorBits
+NONE	mlir_env/core/immutable.py	/^    NONE = 0$/;"	v	class:Phase
+NewStub	backend/service/compiler_service.grpc.pb.cc	/^std::unique_ptr<MLIRService::Stub> MLIRService::NewStub($/;"	f	class:MLIRService
+NoError	backend/passes/include/mlir_termination_compile.h	/^  NoError,$/;"	m	class:CompileErrorTypes
+OK	mlir_env/core/immutable.py	/^    OK = True$/;"	v	class:Status
+OP_CNT	mlir_env/spec.py	/^    OP_CNT = "OpCountState"$/;"	v	class:Observations
+OP_DEF_PATTERN	scripts/get_ops.py	/^OP_DEF_PATTERN = re.compile($/;"	v
+Observations	mlir_env/spec.py	/^class Observations(Enum):$/;"	c
+OptimizeCode	backend/service/compiler_service.grpc.pb.cc	/^::grpc::Status MLIRService::Service::OptimizeCode($/;"	f	class:MLIRService::Service
+OptimizeCode	backend/service/compiler_service.grpc.pb.cc	/^::grpc::Status MLIRService::Stub::OptimizeCode(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+OptimizeCode	backend/service/compiler_service.grpc.pb.cc	/^void MLIRService::Stub::experimental_async::OptimizeCode($/;"	f	class:MLIRService::Stub::experimental_async
+OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    virtual ::grpc::ServerUnaryReactor* OptimizeCode($/;"	f	class:final::ExperimentalWithCallbackMethod_OptimizeCode
+OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    virtual ::grpc::ServerUnaryReactor* OptimizeCode($/;"	f	class:final::ExperimentalWithRawCallbackMethod_OptimizeCode
+OptimizeCode	backend/service/compiler_service_pb2_grpc.py	/^    def OptimizeCode($/;"	m	class:CompilerService
+OptimizeCode	backend/service/compiler_service_pb2_grpc.py	/^    def OptimizeCode(self, request, context):$/;"	m	class:CompilerServiceServicer
+OptimizeRequest	backend/service/compiler_service.pb.cc	/^OptimizeRequest::OptimizeRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)$/;"	f	class:OptimizeRequest
+OptimizeRequest	backend/service/compiler_service.pb.cc	/^OptimizeRequest::OptimizeRequest(const OptimizeRequest& from)$/;"	f	class:OptimizeRequest
+OptimizeRequest	backend/service/compiler_service.pb.h	/^  OptimizeRequest(OptimizeRequest&& from) noexcept : OptimizeRequest() {$/;"	f	class:PROTOBUF_FINAL
+OptimizeRequest	backend/service/compiler_service.pb.h	/^  inline OptimizeRequest() : OptimizeRequest(nullptr){};$/;"	f	class:PROTOBUF_FINAL
+OptimizeRequest	backend/service/compiler_service_pb2.py	/^OptimizeRequest = _reflection.GeneratedProtocolMessageType($/;"	v
+OptimizeRequestDefaultTypeInternal	backend/service/compiler_service.pb.cc	/^class OptimizeRequestDefaultTypeInternal {$/;"	c	file:
+OptimizeResponse	backend/service/compiler_service.pb.cc	/^OptimizeResponse::OptimizeResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)$/;"	f	class:OptimizeResponse
+OptimizeResponse	backend/service/compiler_service.pb.cc	/^OptimizeResponse::OptimizeResponse(const OptimizeResponse& from)$/;"	f	class:OptimizeResponse
+OptimizeResponse	backend/service/compiler_service.pb.h	/^  OptimizeResponse(OptimizeResponse&& from) noexcept : OptimizeResponse() {$/;"	f	class:PROTOBUF_FINAL
+OptimizeResponse	backend/service/compiler_service.pb.h	/^  inline OptimizeResponse() : OptimizeResponse(nullptr){};$/;"	f	class:PROTOBUF_FINAL
+OptimizeResponse	backend/service/compiler_service_pb2.py	/^OptimizeResponse = _reflection.GeneratedProtocolMessageType($/;"	v
+OptimizeResponseDefaultTypeInternal	backend/service/compiler_service.pb.cc	/^class OptimizeResponseDefaultTypeInternal {$/;"	c	file:
+POW2	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^POW2 = lambda x: (x is not None) and x > 0 and (x & (x - 1)) == 0$/;"	v
+PROTOBUF_FINAL	backend/service/compiler_service.pb.h	/^class CompileRequest PROTOBUF_FINAL$/;"	c
+PROTOBUF_FINAL	backend/service/compiler_service.pb.h	/^class CompileResponse PROTOBUF_FINAL$/;"	c
+PROTOBUF_FINAL	backend/service/compiler_service.pb.h	/^class OptimizeRequest PROTOBUF_FINAL$/;"	c
+PROTOBUF_FINAL	backend/service/compiler_service.pb.h	/^class OptimizeResponse PROTOBUF_FINAL$/;"	c
+PROTOBUF_FINAL	backend/service/compiler_service.pb.h	/^class runRequest PROTOBUF_FINAL$/;"	c
+PROTOBUF_FINAL	backend/service/compiler_service.pb.h	/^class runResponse PROTOBUF_FINAL$/;"	c
+PROTOBUF_INTERNAL_EXPORT_compiler_5fservice_2eproto	backend/service/compiler_service.pb.h	37;"	d
+PYBIND11_MODULE	backend/passes/pybind/pybind_wrapper.cpp	/^PYBIND11_MODULE(mlir_gym_compiler, m) {$/;"	f
+Packer	mlir_env/observations/classes/SV/packer.py	/^class Packer:$/;"	c
+PackerParams	mlir_env/observations/classes/SV/immutable.py	/^class PackerParams:$/;"	c
+Parsing	mlir_env/spec.py	/^    Parsing = -15$/;"	v	class:Penalty
+Parsing	mlir_env/spec.py	/^    Parsing = 20$/;"	v	class:Success
+ParsingError	backend/passes/include/mlir_termination_compile.h	/^  ParsingError,$/;"	m	class:CompileErrorTypes
+PassRunner	mlir_env/actions/runner.py	/^class PassRunner:$/;"	c
+Penalty	mlir_env/spec.py	/^class Penalty(Enum):$/;"	c
+Phase	mlir_env/core/immutable.py	/^class Phase(IntFlag):$/;"	c
+PolicyBasedAgent	mlir_env/agents/policy_based/base_agent.py	/^class PolicyBasedAgent(RLAgent):$/;"	c
+Potential	mlir_env/rewards/interface.py	/^class Potential(ABC):$/;"	c
+PrepareAsyncCompileCode	backend/service/compiler_service.grpc.pb.h	/^    PrepareAsyncCompileCode(::grpc::ClientContext* context,$/;"	f	class:final::StubInterface
+PrepareAsyncCompileCode	backend/service/compiler_service.grpc.pb.h	/^    PrepareAsyncCompileCode(::grpc::ClientContext* context,$/;"	f	class:final::final
+PrepareAsyncCompileCodeRaw	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Stub::PrepareAsyncCompileCodeRaw(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+PrepareAsyncOptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    PrepareAsyncOptimizeCode(::grpc::ClientContext* context,$/;"	f	class:final::StubInterface
+PrepareAsyncOptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    PrepareAsyncOptimizeCode(::grpc::ClientContext* context,$/;"	f	class:final::final
+PrepareAsyncOptimizeCodeRaw	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Stub::PrepareAsyncOptimizeCodeRaw(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+PrepareAsyncrunCode	backend/service/compiler_service.grpc.pb.h	/^    PrepareAsyncrunCode(::grpc::ClientContext* context,$/;"	f	class:final::StubInterface
+PrepareAsyncrunCode	backend/service/compiler_service.grpc.pb.h	/^    PrepareAsyncrunCode(::grpc::ClientContext* context,$/;"	f	class:final::final
+PrepareAsyncrunCodeRaw	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Stub::PrepareAsyncrunCodeRaw(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+RLAgent	mlir_env/agents/base_agent.py	/^class RLAgent(ABC):$/;"	c
+RNNPolicy	mlir_env/agents/policy_based/policy/rnn.py	/^class RNNPolicy(nn.Module):$/;"	c
+RNNPolicyAgent	mlir_env/agents/policy_based/rnn_agent.py	/^class RNNPolicyAgent(PolicyBasedAgent):$/;"	c
+RegisterArenaDtor	backend/service/compiler_service.pb.cc	/^void CompileRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {}$/;"	f	class:CompileRequest
+RegisterArenaDtor	backend/service/compiler_service.pb.cc	/^void CompileResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {}$/;"	f	class:CompileResponse
+RegisterArenaDtor	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {}$/;"	f	class:OptimizeRequest
+RegisterArenaDtor	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {}$/;"	f	class:OptimizeResponse
+RegisterArenaDtor	backend/service/compiler_service.pb.cc	/^void runRequest::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {}$/;"	f	class:runRequest
+RegisterArenaDtor	backend/service/compiler_service.pb.cc	/^void runResponse::RegisterArenaDtor(::PROTOBUF_NAMESPACE_ID::Arena*) {}$/;"	f	class:runResponse
+RequestCompileCode	backend/service/compiler_service.grpc.pb.h	/^    void RequestCompileCode($/;"	f	class:final::WithAsyncMethod_CompileCode
+RequestCompileCode	backend/service/compiler_service.grpc.pb.h	/^    void RequestCompileCode($/;"	f	class:final::WithRawMethod_CompileCode
+RequestOptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    void RequestOptimizeCode($/;"	f	class:final::WithAsyncMethod_OptimizeCode
+RequestOptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    void RequestOptimizeCode($/;"	f	class:final::WithRawMethod_OptimizeCode
+RequestrunCode	backend/service/compiler_service.grpc.pb.h	/^    void RequestrunCode($/;"	f	class:final::WithAsyncMethod_runCode
+RequestrunCode	backend/service/compiler_service.grpc.pb.h	/^    void RequestrunCode($/;"	f	class:final::WithRawMethod_runCode
+Requirement	mlir_env/core/immutable.py	/^class Requirement:$/;"	c
+RewardConfig	mlir_env/rewards/config.py	/^class RewardConfig:$/;"	c
+Rewarder	mlir_env/rewards/rewarder.py	/^class Rewarder:$/;"	c
+Rewards	mlir_env/spec.py	/^class Rewards(Enum):$/;"	c
+SCF	mlir_env/core/immutable.py	/^    SCF = auto()$/;"	v	class:Phase
+SCF	mlir_env/views/spec.py	/^    SCF = "scf"$/;"	v	class:ViewKind
+SVEngine	mlir_env/observations/classes/SV/engine.py	/^class SVEngine(State):$/;"	c
+ScalarDimResolver	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^class ScalarDimResolver:$/;"	c
+Scope	mlir_env/core/immutable.py	/^Scope = Literal["func", "module", "env"]$/;"	v
+Service	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Service::Service() {$/;"	f	class:MLIRService::Service
+Service	backend/service/compiler_service.grpc.pb.h	/^  class Service : public ::grpc::Service {$/;"	c	class:final
+SetCachedSize	backend/service/compiler_service.pb.cc	/^void CompileRequest::SetCachedSize(int size) const { _cached_size_.Set(size); }$/;"	f	class:CompileRequest
+SetCachedSize	backend/service/compiler_service.pb.cc	/^void CompileResponse::SetCachedSize(int size) const { _cached_size_.Set(size); }$/;"	f	class:CompileResponse
+SetCachedSize	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::SetCachedSize(int size) const { _cached_size_.Set(size); }$/;"	f	class:OptimizeRequest
+SetCachedSize	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::SetCachedSize(int size) const {$/;"	f	class:OptimizeResponse
+SetCachedSize	backend/service/compiler_service.pb.cc	/^void runRequest::SetCachedSize(int size) const { _cached_size_.Set(size); }$/;"	f	class:runRequest
+SetCachedSize	backend/service/compiler_service.pb.cc	/^void runResponse::SetCachedSize(int size) const { _cached_size_.Set(size); }$/;"	f	class:runResponse
+SetMessageAllocatorFor_CompileCode	backend/service/compiler_service.grpc.pb.h	/^    void SetMessageAllocatorFor_CompileCode($/;"	f	class:final::ExperimentalWithCallbackMethod_CompileCode
+SetMessageAllocatorFor_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    void SetMessageAllocatorFor_OptimizeCode($/;"	f	class:final::ExperimentalWithCallbackMethod_OptimizeCode
+SetMessageAllocatorFor_runCode	backend/service/compiler_service.grpc.pb.h	/^    void SetMessageAllocatorFor_runCode($/;"	f	class:final::ExperimentalWithCallbackMethod_runCode
+SharedCtor	backend/service/compiler_service.pb.cc	/^void CompileRequest::SharedCtor() {$/;"	f	class:CompileRequest
+SharedCtor	backend/service/compiler_service.pb.cc	/^void CompileResponse::SharedCtor() {$/;"	f	class:CompileResponse
+SharedCtor	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::SharedCtor() {$/;"	f	class:OptimizeRequest
+SharedCtor	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::SharedCtor() {$/;"	f	class:OptimizeResponse
+SharedCtor	backend/service/compiler_service.pb.cc	/^void runRequest::SharedCtor() {$/;"	f	class:runRequest
+SharedCtor	backend/service/compiler_service.pb.cc	/^void runResponse::SharedCtor() {$/;"	f	class:runResponse
+SharedDtor	backend/service/compiler_service.pb.cc	/^void CompileRequest::SharedDtor() {$/;"	f	class:CompileRequest
+SharedDtor	backend/service/compiler_service.pb.cc	/^void CompileResponse::SharedDtor() {$/;"	f	class:CompileResponse
+SharedDtor	backend/service/compiler_service.pb.cc	/^void OptimizeRequest::SharedDtor() {$/;"	f	class:OptimizeRequest
+SharedDtor	backend/service/compiler_service.pb.cc	/^void OptimizeResponse::SharedDtor() {$/;"	f	class:OptimizeResponse
+SharedDtor	backend/service/compiler_service.pb.cc	/^void runRequest::SharedDtor() {$/;"	f	class:runRequest
+SharedDtor	backend/service/compiler_service.pb.cc	/^void runResponse::SharedDtor() {$/;"	f	class:runResponse
+SplitStreamedService	backend/service/compiler_service.grpc.pb.h	/^  typedef Service SplitStreamedService;$/;"	t	class:final
+State	mlir_env/observations/interface.py	/^class State(ABC):$/;"	c
+StateBuilder	mlir_env/observations/builder.py	/^class StateBuilder:$/;"	c
+StateConfig	mlir_env/observations/config.py	/^class StateConfig:$/;"	c
+Status	mlir_env/core/immutable.py	/^class Status(Enum):$/;"	c
+StepResult	mlir_env/core/immutable.py	/^class StepResult:$/;"	c
+StepReturn	mlir_env/core/immutable.py	/^class StepReturn:$/;"	c
+StreamedService	backend/service/compiler_service.grpc.pb.h	/^      StreamedService;$/;"	t	class:final
+StreamedUnaryService	backend/service/compiler_service.grpc.pb.h	/^      StreamedUnaryService;$/;"	t	class:final
+Stub	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Stub::Stub($/;"	f	class:MLIRService::Stub
+StubInterface	backend/service/compiler_service.grpc.pb.h	/^  class StubInterface {$/;"	c	class:final
+SubprocessExecutor	mlir_env/actions/executor.py	/^class SubprocessExecutor:$/;"	c
+Success	mlir_env/spec.py	/^class Success(Enum):$/;"	c
+Swap	backend/service/compiler_service.pb.h	/^  inline void Swap(CompileRequest* other) {$/;"	f	class:PROTOBUF_FINAL
+Swap	backend/service/compiler_service.pb.h	/^  inline void Swap(CompileResponse* other) {$/;"	f	class:PROTOBUF_FINAL
+Swap	backend/service/compiler_service.pb.h	/^  inline void Swap(OptimizeRequest* other) {$/;"	f	class:PROTOBUF_FINAL
+Swap	backend/service/compiler_service.pb.h	/^  inline void Swap(OptimizeResponse* other) {$/;"	f	class:PROTOBUF_FINAL
+Swap	backend/service/compiler_service.pb.h	/^  inline void Swap(runRequest* other) {$/;"	f	class:PROTOBUF_FINAL
+Swap	backend/service/compiler_service.pb.h	/^  inline void Swap(runResponse* other) {$/;"	f	class:PROTOBUF_FINAL
+TENSOR	mlir_env/core/immutable.py	/^    TENSOR = auto()$/;"	v	class:Phase
+TERMINATION	mlir_env/spec.py	/^    TERMINATION = ""$/;"	v	class:Actions
+TEST	backend/tests/grpc_test/test_server.cpp	/^TEST(GrpcExampleTest, BasicClientServer) {$/;"	f
+TEST	backend/tests/llvm_test/test_llvm.cpp	/^TEST(LLVMTest, CreateModule) {$/;"	f
+TEST	backend/tests/mlir_test/test_mlir.cpp	/^TEST(MLIRTest, CreateModule) {$/;"	f
+TEST	backend/tests/protobuf_test/test_protobuf.cpp	/^TEST(ProtobufTest, BasicTest) {$/;"	f
+TEST_F	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^TEST_F(MLIRGymCompilerTest, FileIOError) {$/;"	f
+TEST_F	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^TEST_F(MLIRGymCompilerTest, InvalidLLVMSyntax) {$/;"	f
+TEST_F	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^TEST_F(MLIRGymCompilerTest, InvalidMLIRSyntax) {$/;"	f
+TEST_F	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^TEST_F(MLIRGymCompilerTest, MLIRClangError) {$/;"	f
+TEST_F	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^TEST_F(MLIRGymCompilerTest, NonSupportedMLIR) {$/;"	f
+TEST_F	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^TEST_F(MLIRGymCompilerTest, ValidMLIRCompilation) {$/;"	f
+TableStruct_compiler_5fservice_2eproto	backend/service/compiler_service.pb.h	/^struct TableStruct_compiler_5fservice_2eproto {$/;"	s
+ToolCaps	mlir_env/views/utils.py	/^class ToolCaps:$/;"	c
+TransfomerPolicyAgent	mlir_env/agents/policy_based/transformer_agent.py	/^class TransfomerPolicyAgent(Policy):$/;"	c
+TransformerPolicy	mlir_env/agents/policy_based/policy/transformer.py	/^class TransformerPolicy(nn.Module):$/;"	c
+Translation	mlir_env/spec.py	/^    Translation = -13.5$/;"	v	class:Penalty
+Translation	mlir_env/spec.py	/^    Translation = 6.6$/;"	v	class:Success
+TranslationError	backend/passes/include/mlir_termination_compile.h	/^  TranslationError,$/;"	m	class:CompileErrorTypes
+UNKNOWN	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^UNKNOWN = -1$/;"	v
+UnsafeArenaSwap	backend/service/compiler_service.pb.h	/^  void UnsafeArenaSwap(CompileRequest* other) {$/;"	f	class:PROTOBUF_FINAL
+UnsafeArenaSwap	backend/service/compiler_service.pb.h	/^  void UnsafeArenaSwap(CompileResponse* other) {$/;"	f	class:PROTOBUF_FINAL
+UnsafeArenaSwap	backend/service/compiler_service.pb.h	/^  void UnsafeArenaSwap(OptimizeRequest* other) {$/;"	f	class:PROTOBUF_FINAL
+UnsafeArenaSwap	backend/service/compiler_service.pb.h	/^  void UnsafeArenaSwap(OptimizeResponse* other) {$/;"	f	class:PROTOBUF_FINAL
+UnsafeArenaSwap	backend/service/compiler_service.pb.h	/^  void UnsafeArenaSwap(runRequest* other) {$/;"	f	class:PROTOBUF_FINAL
+UnsafeArenaSwap	backend/service/compiler_service.pb.h	/^  void UnsafeArenaSwap(runResponse* other) {$/;"	f	class:PROTOBUF_FINAL
+VECTOR	mlir_env/core/immutable.py	/^    VECTOR = auto()$/;"	v	class:Phase
+VECTOR	mlir_env/views/spec.py	/^    VECTOR = "vector"$/;"	v	class:ViewKind
+ValueBasedAgent	mlir_env/agents/value_based/base_agent.py	/^class ValueBasedAgent(RLAgent):$/;"	c
+ViewKind	mlir_env/views/spec.py	/^class ViewKind(str, Enum):$/;"	c
+ViewRunner	mlir_env/views/view_runner.py	/^class ViewRunner:$/;"	c
+ViewSpec	mlir_env/views/spec.py	/^class ViewSpec:$/;"	c
+W_FAILED_PRECOND	mlir_env/core/immutable.py	/^    W_FAILED_PRECOND = auto()$/;"	v	class:ErrorBits
+W_NO_CHANGE	mlir_env/core/immutable.py	/^    W_NO_CHANGE = auto()$/;"	v	class:ErrorBits
+WithAsyncMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^    WithAsyncMethod_CompileCode() { ::grpc::Service::MarkMethodAsync(0); }$/;"	f	class:final::WithAsyncMethod_CompileCode
+WithAsyncMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^  class WithAsyncMethod_CompileCode : public BaseClass {$/;"	c	class:final
+WithAsyncMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    WithAsyncMethod_OptimizeCode() { ::grpc::Service::MarkMethodAsync(1); }$/;"	f	class:final::WithAsyncMethod_OptimizeCode
+WithAsyncMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^  class WithAsyncMethod_OptimizeCode : public BaseClass {$/;"	c	class:final
+WithAsyncMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^    WithAsyncMethod_runCode() { ::grpc::Service::MarkMethodAsync(2); }$/;"	f	class:final::WithAsyncMethod_runCode
+WithAsyncMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^  class WithAsyncMethod_runCode : public BaseClass {$/;"	c	class:final
+WithGenericMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^    WithGenericMethod_CompileCode() { ::grpc::Service::MarkMethodGeneric(0); }$/;"	f	class:final::WithGenericMethod_CompileCode
+WithGenericMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^  class WithGenericMethod_CompileCode : public BaseClass {$/;"	c	class:final
+WithGenericMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    WithGenericMethod_OptimizeCode() { ::grpc::Service::MarkMethodGeneric(1); }$/;"	f	class:final::WithGenericMethod_OptimizeCode
+WithGenericMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^  class WithGenericMethod_OptimizeCode : public BaseClass {$/;"	c	class:final
+WithGenericMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^    WithGenericMethod_runCode() { ::grpc::Service::MarkMethodGeneric(2); }$/;"	f	class:final::WithGenericMethod_runCode
+WithGenericMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^  class WithGenericMethod_runCode : public BaseClass {$/;"	c	class:final
+WithRawMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^    WithRawMethod_CompileCode() { ::grpc::Service::MarkMethodRaw(0); }$/;"	f	class:final::WithRawMethod_CompileCode
+WithRawMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^  class WithRawMethod_CompileCode : public BaseClass {$/;"	c	class:final
+WithRawMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    WithRawMethod_OptimizeCode() { ::grpc::Service::MarkMethodRaw(1); }$/;"	f	class:final::WithRawMethod_OptimizeCode
+WithRawMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^  class WithRawMethod_OptimizeCode : public BaseClass {$/;"	c	class:final
+WithRawMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^    WithRawMethod_runCode() { ::grpc::Service::MarkMethodRaw(2); }$/;"	f	class:final::WithRawMethod_runCode
+WithRawMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^  class WithRawMethod_runCode : public BaseClass {$/;"	c	class:final
+WithStreamedUnaryMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^    WithStreamedUnaryMethod_CompileCode() {$/;"	f	class:final::WithStreamedUnaryMethod_CompileCode
+WithStreamedUnaryMethod_CompileCode	backend/service/compiler_service.grpc.pb.h	/^  class WithStreamedUnaryMethod_CompileCode : public BaseClass {$/;"	c	class:final
+WithStreamedUnaryMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^    WithStreamedUnaryMethod_OptimizeCode() {$/;"	f	class:final::WithStreamedUnaryMethod_OptimizeCode
+WithStreamedUnaryMethod_OptimizeCode	backend/service/compiler_service.grpc.pb.h	/^  class WithStreamedUnaryMethod_OptimizeCode : public BaseClass {$/;"	c	class:final
+WithStreamedUnaryMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^    WithStreamedUnaryMethod_runCode() {$/;"	f	class:final::WithStreamedUnaryMethod_runCode
+WithStreamedUnaryMethod_runCode	backend/service/compiler_service.grpc.pb.h	/^  class WithStreamedUnaryMethod_runCode : public BaseClass {$/;"	c	class:final
+_COMPILEREQUEST	backend/service/compiler_service_pb2.py	/^_COMPILEREQUEST = _descriptor.Descriptor($/;"	v
+_COMPILERESPONSE	backend/service/compiler_service_pb2.py	/^_COMPILERESPONSE = _descriptor.Descriptor($/;"	v
+_CompileRequest_default_instance_	backend/service/compiler_service.pb.cc	/^} _CompileRequest_default_instance_;$/;"	v	typeref:class:CompileRequestDefaultTypeInternal
+_CompileResponse_default_instance_	backend/service/compiler_service.pb.cc	/^} _CompileResponse_default_instance_;$/;"	v	typeref:class:CompileResponseDefaultTypeInternal
+_DummyFinal	tests/test_rewards_interface.py	/^    class _DummyFinal(FinalReward):$/;"	c	function:test_register_final_decorator_registers_class
+_DummyPotential	tests/test_rewards_interface.py	/^    class _DummyPotential(Potential):$/;"	c	function:test_register_potential_decorator_registers_class
+_Internal	backend/service/compiler_service.pb.cc	/^class CompileRequest::_Internal {$/;"	c	class:CompileRequest	file:
+_Internal	backend/service/compiler_service.pb.cc	/^class CompileResponse::_Internal {$/;"	c	class:CompileResponse	file:
+_Internal	backend/service/compiler_service.pb.cc	/^class OptimizeRequest::_Internal {$/;"	c	class:OptimizeRequest	file:
+_Internal	backend/service/compiler_service.pb.cc	/^class OptimizeResponse::_Internal {$/;"	c	class:OptimizeResponse	file:
+_Internal	backend/service/compiler_service.pb.cc	/^class runRequest::_Internal {$/;"	c	class:runRequest	file:
+_Internal	backend/service/compiler_service.pb.cc	/^class runResponse::_Internal {$/;"	c	class:runResponse	file:
+_InternalParse	backend/service/compiler_service.pb.cc	/^const char* CompileRequest::_InternalParse($/;"	f	class:CompileRequest
+_InternalParse	backend/service/compiler_service.pb.cc	/^const char* CompileResponse::_InternalParse($/;"	f	class:CompileResponse
+_InternalParse	backend/service/compiler_service.pb.cc	/^const char* OptimizeRequest::_InternalParse($/;"	f	class:OptimizeRequest
+_InternalParse	backend/service/compiler_service.pb.cc	/^const char* OptimizeResponse::_InternalParse($/;"	f	class:OptimizeResponse
+_InternalParse	backend/service/compiler_service.pb.cc	/^const char* runRequest::_InternalParse($/;"	f	class:runRequest
+_InternalParse	backend/service/compiler_service.pb.cc	/^const char* runResponse::_InternalParse($/;"	f	class:runResponse
+_InternalSerialize	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::uint8* CompileRequest::_InternalSerialize($/;"	f	class:CompileRequest
+_InternalSerialize	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::uint8* CompileResponse::_InternalSerialize($/;"	f	class:CompileResponse
+_InternalSerialize	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::uint8* OptimizeRequest::_InternalSerialize($/;"	f	class:OptimizeRequest
+_InternalSerialize	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::uint8* OptimizeResponse::_InternalSerialize($/;"	f	class:OptimizeResponse
+_InternalSerialize	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::uint8* runRequest::_InternalSerialize($/;"	f	class:runRequest
+_InternalSerialize	backend/service/compiler_service.pb.cc	/^::PROTOBUF_NAMESPACE_ID::uint8* runResponse::_InternalSerialize($/;"	f	class:runResponse
+_MLIRSERVICE	backend/service/compiler_service_pb2.py	/^_MLIRSERVICE = _descriptor.ServiceDescriptor($/;"	v
+_OPTIMIZEREQUEST	backend/service/compiler_service_pb2.py	/^_OPTIMIZEREQUEST = _descriptor.Descriptor($/;"	v
+_OPTIMIZERESPONSE	backend/service/compiler_service_pb2.py	/^_OPTIMIZERESPONSE = _descriptor.Descriptor($/;"	v
+_OptimizeRequest_default_instance_	backend/service/compiler_service.pb.cc	/^} _OptimizeRequest_default_instance_;$/;"	v	typeref:class:OptimizeRequestDefaultTypeInternal
+_OptimizeResponse_default_instance_	backend/service/compiler_service.pb.cc	/^} _OptimizeResponse_default_instance_;$/;"	v	typeref:class:OptimizeResponseDefaultTypeInternal
+_RUNREQUEST	backend/service/compiler_service_pb2.py	/^_RUNREQUEST = _descriptor.Descriptor($/;"	v
+_RUNRESPONSE	backend/service/compiler_service_pb2.py	/^_RUNRESPONSE = _descriptor.Descriptor($/;"	v
+_UNIT_TO_KB	mlir_env/utils/benchmark_utils.py	/^_UNIT_TO_KB = {"B": 1 \/ 1024, "KB": 1, "MB": 1024, "GB": 1024 * 1024}$/;"	v
+__dir__	mlir_env/core/decorator/forward_method.py	/^    def __dir__(self):$/;"	m	class:ForwardMethodWrapper	file:
+__getattr__	mlir_env/core/decorator/forward_method.py	/^    def __getattr__(self, name):$/;"	m	class:ForwardMethodWrapper	file:
+__init__	backend/service/compiler_service_pb2_grpc.py	/^    def __init__(self, channel):$/;"	m	class:CompilerServiceStub
+__init__	mlir_env/actions/basic_injector.py	/^    def __init__(self):$/;"	m	class:GradientHistoryVector
+__init__	mlir_env/actions/basic_injector.py	/^    def __init__(self, num_actions: int):$/;"	m	class:ActionHistoryVector
+__init__	mlir_env/actions/layer.py	/^    def __init__(self, cfg: Config, ctx: EpisodeContext, eval_runs: int = 10):$/;"	m	class:ActionLayer
+__init__	mlir_env/actions/runner.py	/^    def __init__($/;"	m	class:EvalRunner
+__init__	mlir_env/actions/runner.py	/^    def __init__(self, cfg: Config, executor: SubprocessExecutor | None = None):$/;"	m	class:PassRunner
+__init__	mlir_env/agents/base_agent.py	/^    def __init__($/;"	m	class:RLAgent
+__init__	mlir_env/agents/policy_based/actor_critic_agent.py	/^    def __init__(self, hidden_neurons=[512, 256], gamma=0.99, *args, **kwargs):$/;"	m	class:ActorCriticPolicyAgent
+__init__	mlir_env/agents/policy_based/base_agent.py	/^    def __init__(self, preprocessor: ObservationPreprocessor, *args, **kwargs):$/;"	m	class:PolicyBasedAgent
+__init__	mlir_env/agents/policy_based/mlp_agent.py	/^    def __init__(self, hidden_neurons=[512, 256], gamma=0.99, *args, **kwargs):$/;"	m	class:MLPPolicyAgent
+__init__	mlir_env/agents/policy_based/policy/actor_critic.py	/^    def __init__(self, feature_dim, hidden_dim=128):$/;"	m	class:AttentionPooling
+__init__	mlir_env/agents/policy_based/policy/actor_critic.py	/^    def __init__(self, input_dim: int, hidden: list, output_dim: int):$/;"	m	class:ActorCriticPolicy
+__init__	mlir_env/agents/policy_based/policy/mlp.py	/^    def __init__(self, feature_dim, hidden_dim=128):$/;"	m	class:AttentionPooling
+__init__	mlir_env/agents/policy_based/policy/mlp.py	/^    def __init__(self, input_dim: int, hidden: list, output_dim: int):$/;"	m	class:MLPPolicy
+__init__	mlir_env/agents/policy_based/policy/rnn.py	/^    def __init__($/;"	m	class:RNNPolicy
+__init__	mlir_env/agents/policy_based/policy/transformer.py	/^    def __init__($/;"	m	class:TransformerPolicy
+__init__	mlir_env/agents/policy_based/rnn_agent.py	/^    def __init__($/;"	m	class:RNNPolicyAgent
+__init__	mlir_env/agents/policy_based/transformer_agent.py	/^    def __init__($/;"	m	class:TransfomerPolicyAgent
+__init__	mlir_env/agents/value_based/base_agent.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:ValueBasedAgent
+__init__	mlir_env/core/mlir_world.py	/^    def __init__($/;"	m	class:MLIRWorldEnv
+__init__	mlir_env/observations/classes/SV/analysis/loop_analysis.py	/^    def __init__(self, params: LoopParams):$/;"	m	class:LoopInformationExtractor
+__init__	mlir_env/observations/classes/SV/analysis/memory_analysis.py	/^    def __init__(self, params: MemParams):$/;"	m	class:MemoryInformationExtractor
+__init__	mlir_env/observations/classes/SV/engine.py	/^    def __init__($/;"	m	class:SVEngine
+__init__	mlir_env/observations/classes/SV/packer.py	/^    def __init__($/;"	m	class:Packer
+__init__	mlir_env/utils/logger.py	/^    def __init__(self):$/;"	m	class:MetricsLogger
+__init__	mlir_env/views/view_runner.py	/^    def __init__(self, cfg: Config, executor: SubprocessExecutor | None = None):$/;"	m	class:ViewRunner
+__init__	mlir_env/views/viewer.py	/^    def __init__(self, ir_text: str):$/;"	m	class:ModuleView
+__init__	tests/reward_classes/test_final_log_speedup.py	/^    def __init__(self, L0=100.0, C0=50.0, B0=200.0):$/;"	m	class:DummyCtx
+__init__	tests/reward_classes/test_final_log_speedup.py	/^    def __init__(self, latency_ms=None, compile_ms=None, size_kb=None):$/;"	m	class:DummyMetrics
+__init__	tests/test_actions_evalrunner_unit.py	/^    def __init__(self):$/;"	m	class:DummyCtx
+__init__	tests/test_actions_evalrunner_unit.py	/^    def __init__(self, result):$/;"	m	class:FakeExecutor
+__init__	tests/test_actions_evalrunner_unit.py	/^    def __init__(self, returncode=0, stdout=b"", stderr=b""):$/;"	m	class:FakeExecResult
+__init__	tests/test_actions_layer_unit.py	/^    def __init__(self, cfg):$/;"	m	class:DummyCtx
+__init__	tests/test_actions_layer_unit.py	/^    def __init__(self, result: StepResult):$/;"	m	class:FakeEvalRunner
+__init__	tests/test_actions_layer_unit.py	/^    def __init__(self, result: StepResult):$/;"	m	class:FakePassRunner
+__init__	tests/test_rewards_rewarder.py	/^    def __init__(self, L0=100.0, C0=50.0, B0=200.0):$/;"	m	class:DummyCtx
+__post_init__	mlir_env/actions/registry.py	/^    def __post_init__(self):$/;"	m	class:ActionRegistry	file:
+__post_init__	mlir_env/observations/builder.py	/^    def __post_init__(self):$/;"	m	class:StateBuilder	file:
+__post_init__	mlir_env/rewards/finals/log_speedup.py	/^    def __post_init__(self):$/;"	m	class:LogSpeedup	file:
+__post_init__	mlir_env/rewards/rewarder.py	/^    def __post_init__(self):$/;"	m	class:Rewarder	file:
+_affine_for_const_bound	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def _affine_for_const_bound(op: mlir_ir.Operation, which: str) -> int | None:$/;"	f
+_affine_for_const_step	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def _affine_for_const_step(op: mlir_ir.Operation) -> int | None:$/;"	f
+_build_nn	mlir_env/agents/policy_based/actor_critic_agent.py	/^    def _build_nn(self) -> torch.nn.Module:$/;"	m	class:ActorCriticPolicyAgent
+_build_nn	mlir_env/agents/policy_based/base_agent.py	/^    def _build_nn(self) -> torch.nn.Module:$/;"	m	class:PolicyBasedAgent
+_build_nn	mlir_env/agents/policy_based/mlp_agent.py	/^    def _build_nn(self) -> torch.nn.Module:$/;"	m	class:MLPPolicyAgent
+_build_nn	mlir_env/agents/policy_based/rnn_agent.py	/^    def _build_nn(self) -> torch.nn.Module:$/;"	m	class:RNNPolicyAgent
+_build_nn	mlir_env/agents/policy_based/transformer_agent.py	/^    def _build_nn(self) -> torch.nn.Module:$/;"	m	class:TransfomerPolicyAgent
+_cache_key	mlir_env/views/view_runner.py	/^    def _cache_key(self, ir: str, view: ViewKind, pipeline: list[str]) -> str:$/;"	m	class:ViewRunner
+_cached_size_	backend/service/compiler_service.pb.h	/^  mutable ::PROTOBUF_NAMESPACE_ID::internal::CachedSize _cached_size_;$/;"	m	class:PROTOBUF_FINAL
+_ceildiv	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def _ceildiv(a: int, b: int) -> int:$/;"	f
+_coeffs_from_result_expr	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^def _coeffs_from_result_expr(amap: mlir_ir.AffineMap, dim: int, n_dims: int) -> Tuple[List[int], bool]:$/;"	f
+_delta_elements_for_loop	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^def _delta_elements_for_loop(access: AccessUse, layout: ArrayLayout, loop_idx: int, loop_step: Optional[int]) -> Optional[int]:$/;"	f
+_forwarded	mlir_env/core/decorator/forward_method.py	/^    _forwarded = set()$/;"	v	class:ForwardMethodWrapper
+_go	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^    def _go(v: mlir_ir.Value) -> int | None:$/;"	f	function:const_index_like
+_init_from_records	mlir_env/observations/classes/SV/analysis/memory_analysis.py	/^    def _init_from_records(self, records: List[LoopInfo]):$/;"	m	class:MemoryInformationExtractor
+_instance	backend/service/compiler_service.pb.cc	/^      _instance;$/;"	m	class:CompileRequestDefaultTypeInternal	file:
+_instance	backend/service/compiler_service.pb.cc	/^      _instance;$/;"	m	class:CompileResponseDefaultTypeInternal	file:
+_instance	backend/service/compiler_service.pb.cc	/^      _instance;$/;"	m	class:OptimizeRequestDefaultTypeInternal	file:
+_instance	backend/service/compiler_service.pb.cc	/^      _instance;$/;"	m	class:OptimizeResponseDefaultTypeInternal	file:
+_instance	backend/service/compiler_service.pb.cc	/^      _instance;$/;"	m	class:runRequestDefaultTypeInternal	file:
+_instance	backend/service/compiler_service.pb.cc	/^      _instance;$/;"	m	class:runResponseDefaultTypeInternal	file:
+_internal_add_passes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeRequest::_internal_add_passes() {$/;"	f	class:OptimizeRequest
+_internal_binary	backend/service/compiler_service.pb.h	/^inline const std::string& CompileResponse::_internal_binary() const {$/;"	f	class:CompileResponse
+_internal_error	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeResponse::_internal_error() const {$/;"	f	class:OptimizeResponse
+_internal_ir	backend/service/compiler_service.pb.h	/^inline const std::string& CompileResponse::_internal_ir() const {$/;"	f	class:CompileResponse
+_internal_ir_bytes	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeRequest::_internal_ir_bytes() const {$/;"	f	class:OptimizeRequest
+_internal_ir_bytes	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeResponse::_internal_ir_bytes() const {$/;"	f	class:OptimizeResponse
+_internal_ir_bytes	backend/service/compiler_service.pb.h	/^inline const std::string& runRequest::_internal_ir_bytes() const {$/;"	f	class:runRequest
+_internal_mutable_binary	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::_internal_mutable_binary() {$/;"	f	class:CompileResponse
+_internal_mutable_error	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::_internal_mutable_error() {$/;"	f	class:OptimizeResponse
+_internal_mutable_ir	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::_internal_mutable_ir() {$/;"	f	class:CompileResponse
+_internal_mutable_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeRequest::_internal_mutable_ir_bytes() {$/;"	f	class:OptimizeRequest
+_internal_mutable_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::_internal_mutable_ir_bytes() {$/;"	f	class:OptimizeResponse
+_internal_mutable_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* runRequest::_internal_mutable_ir_bytes() {$/;"	f	class:runRequest
+_internal_mutable_source_code	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::_internal_mutable_source_code() {$/;"	f	class:CompileRequest
+_internal_mutable_status	backend/service/compiler_service.pb.h	/^inline std::string* runResponse::_internal_mutable_status() {$/;"	f	class:runResponse
+_internal_mutable_target	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::_internal_mutable_target() {$/;"	f	class:CompileRequest
+_internal_passes	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeRequest::_internal_passes(int index) const {$/;"	f	class:OptimizeRequest
+_internal_passes_size	backend/service/compiler_service.pb.h	/^inline int OptimizeRequest::_internal_passes_size() const {$/;"	f	class:OptimizeRequest
+_internal_set_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::_internal_set_binary(const std::string& value) {$/;"	f	class:CompileResponse
+_internal_set_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::_internal_set_error(const std::string& value) {$/;"	f	class:OptimizeResponse
+_internal_set_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::_internal_set_ir(const std::string& value) {$/;"	f	class:CompileResponse
+_internal_set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::_internal_set_ir_bytes(const std::string& value) {$/;"	f	class:OptimizeRequest
+_internal_set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::_internal_set_ir_bytes(const std::string& value) {$/;"	f	class:OptimizeResponse
+_internal_set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::_internal_set_ir_bytes(const std::string& value) {$/;"	f	class:runRequest
+_internal_set_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::_internal_set_source_code($/;"	f	class:CompileRequest
+_internal_set_status	backend/service/compiler_service.pb.h	/^inline void runResponse::_internal_set_status(const std::string& value) {$/;"	f	class:runResponse
+_internal_set_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::_internal_set_target(const std::string& value) {$/;"	f	class:CompileRequest
+_internal_source_code	backend/service/compiler_service.pb.h	/^inline const std::string& CompileRequest::_internal_source_code() const {$/;"	f	class:CompileRequest
+_internal_status	backend/service/compiler_service.pb.h	/^inline const std::string& runResponse::_internal_status() const {$/;"	f	class:runResponse
+_internal_target	backend/service/compiler_service.pb.h	/^inline const std::string& CompileRequest::_internal_target() const {$/;"	f	class:CompileRequest
+_layout_from_memref_type	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^def _layout_from_memref_type(ty: mlir_ir.MemRefType) -> ArrayLayout:$/;"	f
+_num	mlir_env/utils/benchmark_utils.py	/^def _num(s: str) -> float:$/;"	f
+_obs_to_tensor	mlir_env/agents/policy_based/base_agent.py	/^    def _obs_to_tensor(self, obs):$/;"	m	class:PolicyBasedAgent
+_probe	mlir_env/views/view_runner.py	/^    def _probe(self) -> ToolCaps:$/;"	m	class:ViewRunner
+_reserved	mlir_env/core/decorator/forward_method.py	/^    _reserved = {"env", "metadata", "action_space"}$/;"	v	class:ForwardMethodWrapper
+_resolve_spec	mlir_env/views/view_runner.py	/^    def _resolve_spec(self, kind: ViewKind) -> list[str]:$/;"	m	class:ViewRunner
+_runRequest_default_instance_	backend/service/compiler_service.pb.cc	/^} _runRequest_default_instance_;$/;"	v	typeref:class:runRequestDefaultTypeInternal
+_runResponse_default_instance_	backend/service/compiler_service.pb.cc	/^} _runResponse_default_instance_;$/;"	v	typeref:class:runResponseDefaultTypeInternal
+_scf_for_const_bound	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def _scf_for_const_bound(op: mlir_ir.Operation, idx: int) -> int | None:$/;"	f
+_scf_for_const_step	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def _scf_for_const_step(op: mlir_ir.Operation) -> int | None:$/;"	f
+_select_candidates	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^def _select_candidates(uses: List[AccessUse], policy: str) -> List[AccessUse]:$/;"	f
+_split_segments	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def _split_segments($/;"	f
+_sym_db	backend/service/compiler_service_pb2.py	/^_sym_db = _symbol_database.Default()$/;"	v
+_tripcount	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def _tripcount($/;"	f
+_version_not_supported	backend/service/compiler_service_pb2_grpc.py	/^    _version_not_supported = True$/;"	v
+_version_not_supported	backend/service/compiler_service_pb2_grpc.py	/^    _version_not_supported = first_version_is_lower($/;"	v
+_version_not_supported	backend/service/compiler_service_pb2_grpc.py	/^_version_not_supported = False$/;"	v
+action_masked_out	mlir_env/utils/common_utils.py	/^action_masked_out = Requirement(any_of=ErrorBits.E_MASKED)$/;"	v
+action_run_failed	mlir_env/utils/common_utils.py	/^action_run_failed = Requirement(any_of=ErrorBits.E_FAILED | ErrorBits.E_EVAL_FAILED)$/;"	v
+action_run_success	mlir_env/utils/common_utils.py	/^action_run_success = Requirement()$/;"	v
+action_timed_out	mlir_env/utils/common_utils.py	/^action_timed_out = Requirement(any_of=ErrorBits.E_TIMEDOUT)$/;"	v
+addIncludes	backend/passes/lib/clang_mlir_toolchain.cpp	/^void ClangCompiler::addIncludes(std::vector<std::string>& args) {$/;"	f	class:ClangCompiler
+addLibraries	backend/passes/lib/clang_mlir_toolchain.cpp	/^void ClangCompiler::addLibraries(std::vector<std::string>& args) {$/;"	f	class:ClangCompiler
+addOutput	backend/passes/lib/clang_mlir_toolchain.cpp	/^void ClangCompiler::addOutput(std::vector<std::string>& args) {$/;"	f	class:ClangCompiler
+addUserArguments	backend/passes/lib/clang_mlir_toolchain.cpp	/^void ClangCompiler::addUserArguments(std::vector<std::string>& args) {$/;"	f	class:ClangCompiler
+add_CompilerServiceServicer_to_server	backend/service/compiler_service_pb2_grpc.py	/^def add_CompilerServiceServicer_to_server(servicer, server):$/;"	f
+add_entry	mlir_env/actions/registry.py	/^    def add_entry(self, action: Action) -> None:$/;"	m	class:ActionRegistry
+add_entry_spy	tests/test_actions_layer_unit.py	/^    def add_entry_spy(a):$/;"	f	function:test_non_eval_action_updates_registry_and_noop_on_unchanged
+add_passes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeRequest::add_passes() {$/;"	f	class:OptimizeRequest
+add_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::add_passes(const char* value) {$/;"	f	class:OptimizeRequest
+add_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::add_passes(const char* value, size_t size) {$/;"	f	class:OptimizeRequest
+add_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::add_passes(const std::string& value) {$/;"	f	class:OptimizeRequest
+add_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::add_passes(std::string&& value) {$/;"	f	class:OptimizeRequest
+affine_view_ir	mt.py	/^affine_view_ir = view_runner.view(gemm_ir, ViewKind.AFFINE)$/;"	v
+analyze_embeddings_with_classifier	scripts/plot.py	/^def analyze_embeddings_with_classifier(embeddings, labels):$/;"	f
+append	mlir_env/actions/basic_injector.py	/^    def append(self, action: int):$/;"	m	class:ActionHistoryVector
+apply	mlir_env/actions/runner.py	/^    def apply(self, ir_text: str) -> StepResult:$/;"	m	class:EvalRunner
+apply	mlir_env/actions/runner.py	/^    def apply(self, ir_text: str, action: Action) -> StepResult:$/;"	m	class:PassRunner
+apply	tests/test_actions_layer_unit.py	/^    def apply(self, ir_text):$/;"	m	class:FakeEvalRunner
+apply	tests/test_actions_layer_unit.py	/^    def apply(self, ir_text, action):$/;"	m	class:FakePassRunner
+apply_action	mlir_env/actions/layer.py	/^    def apply_action(self, ir_text: str, idx: int) -> StepReturn:$/;"	m	class:ActionLayer
+async	backend/service/compiler_service.grpc.pb.h	/^    async_interface* async() { return experimental_async(); }$/;"	f	class:final::StubInterface
+async_interface	backend/service/compiler_service.grpc.pb.h	/^    typedef class experimental_async_interface async_interface;$/;"	t	class:final::StubInterface	typeref:class:final::StubInterface::experimental_async_interface
+async_stub_	backend/service/compiler_service.grpc.pb.h	/^    class experimental_async async_stub_ {$/;"	c	class:final::final
+band_from_innermost	mlir_env/observations/classes/SV/analysis/utils/loop_api.py	/^def band_from_innermost(loop_op: mlir_ir.Operation) -> list[LoopInfo]:$/;"	f
+benchmark_sh	tests/test_actions_evalrunner_unit.py	/^    benchmark_sh = os.environ.get("MLIR_GYM_ROOT") + "\/benchmarks\/benchmark.sh"$/;"	v	class:DummyCfg
+benchmark_sh	tests/test_actions_layer_unit.py	/^    benchmark_sh = os.environ.get("MLIR_GYM_ROOT") + "\/benchmarks\/benchmark.sh"$/;"	v	class:DummyCfg
+binary	backend/passes/include/mlir_termination_compile.h	/^  std::string binary;$/;"	m	struct:CompileResult
+binary	backend/service/compiler_service.pb.h	/^inline const std::string& CompileResponse::binary() const {$/;"	f	class:CompileResponse
+binarySize	backend/passes/include/mlir_termination_compile.h	/^  uint64_t binarySize = 0;$/;"	m	class:MLIRGymCompiler
+binarySize	backend/passes/include/mlir_termination_compile.h	/^  uint64_t binarySize;$/;"	m	struct:CompileResult
+binary_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr binary_;$/;"	m	class:PROTOBUF_FINAL
+blks	mt.py	/^blks = list(f.body.blocks)[0]$/;"	v
+bounds_of	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^    def bounds_of(self, op: mlir_ir.Operation) -> tuple[int | None, int | None]:$/;"	m	class:ScalarDimResolver
+buildBaseCommand	backend/passes/lib/clang_mlir_toolchain.cpp	/^void ClangCompiler::buildBaseCommand(std::vector<std::string>& args) {$/;"	f	class:ClangCompiler
+build_rewarder	tests/e2e/test_rewarder.py	/^def build_rewarder(c_penalty=10.0, lambda_ct=0.0, beta_kb=0.0):$/;"	f
+build_space	mlir_env/observations/classes/SV/engine.py	/^    def build_space(self) -> spaces.Space:$/;"	m	class:SVEngine
+build_space	mlir_env/observations/classes/SV/packer.py	/^    def build_space(self) -> spaces.Space:$/;"	m	class:Packer
+build_space	mlir_env/observations/interface.py	/^    def build_space(self) -> spaces.Space: ...$/;"	m	class:State
+build_spec	mlir_env/actions/runner.py	/^    def build_spec(self, action: Action) -> CommandSpec:$/;"	m	class:PassRunner
+build_spec	mlir_env/actions/runner.py	/^    def build_spec(self, new_ir_path: str) -> CommandSpec:$/;"	m	class:EvalRunner
+cfg	mt.py	/^cfg = Config.from_yaml(path)$/;"	v
+cfg_from_yaml	tests/conftest.py	/^def cfg_from_yaml(globalVar):$/;"	f
+channel_	backend/service/compiler_service.grpc.pb.h	/^    std::shared_ptr<::grpc::ChannelInterface> channel_;$/;"	m	class:final::final
+check	mlir_env/core/immutable.py	/^    def check(self, phase: Phase) -> bool:$/;"	m	class:Requirement
+clangBin	backend/passes/include/mlir_termination_compile.h	/^  ClangCompiler clangBin;$/;"	m	class:MLIRGymCompiler
+clangPath	backend/passes/include/clang_mlir_toolchain.h	/^  std::string clangPath;$/;"	m	class:ClangCompiler
+cleanup	benchmarks/benchmark.sh	/^cleanup() { rm -f "$LOWERED_MLIR" "$LL_FILE" "$OBJ_FILE"; }$/;"	f
+clear_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::clear_binary() {$/;"	f	class:CompileResponse
+clear_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::clear_error() {$/;"	f	class:OptimizeResponse
+clear_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::clear_ir() {$/;"	f	class:CompileResponse
+clear_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::clear_ir_bytes() {$/;"	f	class:OptimizeRequest
+clear_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::clear_ir_bytes() {$/;"	f	class:OptimizeResponse
+clear_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::clear_ir_bytes() {$/;"	f	class:runRequest
+clear_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::clear_passes() { passes_.Clear(); }$/;"	f	class:OptimizeRequest
+clear_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::clear_source_code() {$/;"	f	class:CompileRequest
+clear_status	backend/service/compiler_service.pb.h	/^inline void runResponse::clear_status() {$/;"	f	class:runResponse
+clear_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::clear_target() {$/;"	f	class:CompileRequest
+close	mlir_env/core/mlir_world.py	/^    def close(self):$/;"	m	class:MLIRWorldEnv
+cnt	run.py	/^cnt = 0$/;"	v
+collect	mlir_env/observations/classes/SV/analysis/utils/memory_api.py	/^def collect(N: int, moduleView: "ModuleView", iv2idx: Dict[mlir.ir.Value, int] = None):$/;"	f
+compile	backend/passes/lib/clang_mlir_toolchain.cpp	/^int ClangCompiler::compile() {$/;"	f	class:ClangCompiler
+compile	backend/passes/lib/mlir_termination_compile.cpp	/^CompileResult MLIRGymCompiler::compile() {$/;"	f	class:MLIRGymCompiler
+compileToBin	backend/passes/lib/mlir_termination_compile.cpp	/^bool MLIRGymCompiler::compileToBin() {$/;"	f	class:MLIRGymCompiler
+compute	mlir_env/rewards/finals/log_speedup.py	/^    def compute(self, ctx, metrics) -> float:$/;"	m	class:LogSpeedup
+compute	mlir_env/rewards/interface.py	/^    def compute(self, ctx: EpisodeContext, metrics: Metrics) -> float: ...$/;"	m	class:FinalReward
+compute	tests/test_rewards_interface.py	/^        def compute(self, ctx, metrics) -> float:$/;"	m	class:test_register_final_decorator_registers_class._DummyFinal
+compute_contiguity_score	mlir_env/observations/classes/SV/analysis/utils/memory_api.py	/^def compute_contiguity_score(N: int, accesses: Dict[Any, List[AccessUse]],$/;"	f
+compute_is_unit_stride_minor	mlir_env/observations/classes/SV/analysis/utils/memory_api.py	/^def compute_is_unit_stride_minor(N: int, accesses: Dict[Any, List[AccessUse]], layouts: Dict[Any, ArrayLayout], loop_steps: np.ndarray, policy: str = "store_first") -> np.ndarray:$/;"	f
+compute_loop_carries_reuse_any	mlir_env/observations/classes/SV/analysis/utils/memory_api.py	/^def compute_loop_carries_reuse_any(N: int, accesses: Dict[Any, List[AccessUse]]) -> np.ndarray:$/;"	f
+compute_reuse_count	mlir_env/observations/classes/SV/analysis/utils/memory_api.py	/^def compute_reuse_count(N: int, accesses: Dict[Any, List[AccessUse]]) -> np.ndarray:$/;"	f
+compute_stride_hist	mlir_env/observations/classes/SV/analysis/utils/memory_api.py	/^def compute_stride_hist(N: int, accesses: Dict[Any, List[AccessUse]],$/;"	f
+condition	scripts/get_ops.py	/^def condition(ops: tuple):$/;"	f
+config	backend/passes/include/clang_mlir_toolchain.h	/^  CompilerConfig config;$/;"	m	class:ClangCompiler
+config	backend/passes/include/mlir_termination_compile.h	/^  CompilerConfig config;$/;"	m	class:MLIRGymCompiler
+const_index_like	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def const_index_like(val: mlir_ir.Value) -> int | None:$/;"	f
+containing_service	backend/service/compiler_service_pb2.py	/^            containing_service=None,$/;"	v
+containing_type	backend/service/compiler_service_pb2.py	/^            containing_type=None,$/;"	v
+containing_type	backend/service/compiler_service_pb2.py	/^    containing_type=None,$/;"	v
+cpp_type	backend/service/compiler_service_pb2.py	/^            cpp_type=9,$/;"	v
+create_key	backend/service/compiler_service_pb2.py	/^            create_key=_descriptor._internal_create_key,$/;"	v
+create_key	backend/service/compiler_service_pb2.py	/^    create_key=_descriptor._internal_create_key,$/;"	v
+ctx	backend/passes/include/mlir_termination_compile.h	/^  mlir::MLIRContext ctx;$/;"	m	class:MLIRGymCompiler
+ctx_from_yaml	tests/conftest.py	/^def ctx_from_yaml(cfg_from_yaml, globalVar):$/;"	f
+custom_pipeline	mlir_tests/lit.cfg.py	/^custom_pipeline = lit_config.params.get("custom-pipeline", "")$/;"	v
+d	lit_tests/lit.cfg.py	/^    d = os.environ.get(env_var)$/;"	v
+date	scripts/plot.py	/^date = datetime.datetime.now().strftime("%Y-%m-%d")$/;"	v
+decay_epsilon	mlir_env/agents/base_agent.py	/^    def decay_epsilon(self):$/;"	m	class:RLAgent
+decorator	mlir_env/core/decorator/enforce_method_call.py	/^    def decorator(method):$/;"	f	function:enforce_call
+defaultIncludes	backend/passes/include/clang_mlir_toolchain.h	/^  std::vector<std::string> defaultIncludes;$/;"	m	class:ClangCompiler
+defaultLibDirs	backend/passes/include/clang_mlir_toolchain.h	/^  std::vector<std::string> defaultLibDirs;$/;"	m	class:ClangCompiler
+defaultLibs	backend/passes/include/clang_mlir_toolchain.h	/^  std::vector<std::string> defaultLibs;$/;"	m	class:ClangCompiler
+default_factory	mlir_env/observations/classes/SV/immutable.py	/^        default_factory=lambda: [$/;"	v	class:HardwareParams
+default_factory	mlir_env/observations/classes/SV/immutable.py	/^        default_factory=lambda: {"method": "log1p_minmax", "clip": [0.0, 1.0]}$/;"	v	class:PackerParams
+default_instance	backend/service/compiler_service.pb.cc	/^const CompileRequest& CompileRequest::default_instance() {$/;"	f	class:CompileRequest
+default_instance	backend/service/compiler_service.pb.cc	/^const CompileResponse& CompileResponse::default_instance() {$/;"	f	class:CompileResponse
+default_instance	backend/service/compiler_service.pb.cc	/^const OptimizeRequest& OptimizeRequest::default_instance() {$/;"	f	class:OptimizeRequest
+default_instance	backend/service/compiler_service.pb.cc	/^const OptimizeResponse& OptimizeResponse::default_instance() {$/;"	f	class:OptimizeResponse
+default_instance	backend/service/compiler_service.pb.cc	/^const runRequest& runRequest::default_instance() {$/;"	f	class:runRequest
+default_instance	backend/service/compiler_service.pb.cc	/^const runResponse& runResponse::default_instance() {$/;"	f	class:runResponse
+default_value	backend/service/compiler_service_pb2.py	/^            default_value=[],$/;"	v
+default_value	backend/service/compiler_service_pb2.py	/^            default_value=b"",$/;"	v
+default_value	backend/service/compiler_service_pb2.py	/^            default_value=b"".decode("utf-8"),$/;"	v
+descriptor	backend/service/compiler_service.pb.h	/^  static const ::PROTOBUF_NAMESPACE_ID::Descriptor* descriptor() {$/;"	f	class:PROTOBUF_FINAL
+descriptor_table_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    descriptor_table_compiler_5fservice_2eproto = {$/;"	v
+descriptor_table_compiler_5fservice_2eproto_deps	backend/service/compiler_service.pb.cc	/^    descriptor_table_compiler_5fservice_2eproto_deps[1] = {};$/;"	m	class:PROTOBUF_NAMESPACE_ID::internal	file:
+descriptor_table_compiler_5fservice_2eproto_once	backend/service/compiler_service.pb.cc	/^    descriptor_table_compiler_5fservice_2eproto_once;$/;"	v	file:
+descriptor_table_compiler_5fservice_2eproto_sccs	backend/service/compiler_service.pb.cc	/^    descriptor_table_compiler_5fservice_2eproto_sccs[6] = {$/;"	m	class:PROTOBUF_NAMESPACE_ID::internal	file:
+detect_phase_from_ir	mlir_env/utils/ir_utils.py	/^def detect_phase_from_ir(ir_text: str) -> Phase:$/;"	f
+discount_reward	mlir_env/agents/policy_based/base_agent.py	/^    def discount_reward(self, rewards):$/;"	m	class:PolicyBasedAgent
+dynamic_init_dummy_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^static bool dynamic_init_dummy_compiler_5fservice_2eproto =$/;"	v	file:
+enforce_call	mlir_env/core/decorator/enforce_method_call.py	/^def enforce_call(method_name):$/;"	f
+entry_point	mlir_env/__init__.py	/^    entry_point="mlir_env.core:MLIRWorldEnv",$/;"	v
+enum_type	backend/service/compiler_service_pb2.py	/^            enum_type=None,$/;"	v
+enum_types	backend/service/compiler_service_pb2.py	/^    enum_types=[],$/;"	v
+env	run.py	/^env = gymnasium.make("mlir_env\/mlir-v5", round_cnt=N)$/;"	v
+errMsg	backend/passes/include/mlir_termination_compile.h	/^  std::string errMsg;$/;"	m	class:MLIRGymCompiler
+error	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeResponse::error() const {$/;"	f	class:OptimizeResponse
+errorMessage	backend/passes/include/mlir_termination_compile.h	/^  std::string errorMessage;$/;"	m	struct:CompileResult
+errorType	backend/passes/include/mlir_termination_compile.h	/^  CompileErrorTypes errorType;$/;"	m	struct:CompileResult
+error_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr error_;$/;"	m	class:PROTOBUF_FINAL
+eval_on_truncate_penalty	mlir_env/rewards/rewarder.py	/^    eval_on_truncate_penalty = 0.05$/;"	v	class:Rewarder
+eval_runs	tests/test_actions_evalrunner_unit.py	/^    eval_runs = 5$/;"	v	class:DummyCfg
+eval_runs	tests/test_actions_layer_unit.py	/^    eval_runs = 5$/;"	v	class:DummyCfg
+eval_timeout_s	tests/test_actions_evalrunner_unit.py	/^    eval_timeout_s = 12$/;"	v	class:DummyCfg
+eval_timeout_s	tests/test_actions_layer_unit.py	/^    eval_timeout_s = 12$/;"	v	class:DummyCfg
+execute	backend/passes/lib/mlir_termination_compile.cpp	/^bool MLIRGymCompiler::execute() {$/;"	f	class:MLIRGymCompiler
+executeCompilation	backend/passes/lib/clang_mlir_toolchain.cpp	/^int ClangCompiler::executeCompilation(const std::vector<std::string>& args) {$/;"	f	class:ClangCompiler
+executionTime	backend/passes/include/mlir_termination_compile.h	/^  double executionTime = 0.0;$/;"	m	class:MLIRGymCompiler
+executionTime	backend/passes/include/mlir_termination_compile.h	/^  double executionTime;$/;"	m	struct:CompileResult
+experimental_async	backend/service/compiler_service.grpc.pb.h	/^      explicit experimental_async(Stub* stub) : stub_(stub) {}$/;"	f	class:final::final::final
+experimental_async	backend/service/compiler_service.grpc.pb.h	/^    virtual class experimental_async_interface* experimental_async() {$/;"	f	class:final::StubInterface
+experimental_async_interface	backend/service/compiler_service.grpc.pb.h	/^    class experimental_async_interface {$/;"	c	class:final::StubInterface
+extension_ranges	backend/service/compiler_service_pb2.py	/^    extension_ranges=[],$/;"	v
+extension_scope	backend/service/compiler_service_pb2.py	/^            extension_scope=None,$/;"	v
+extensions	backend/service/compiler_service_pb2.py	/^    extensions=[],$/;"	v
+extraArgs	backend/passes/include/clang_mlir_toolchain.h	/^  std::vector<std::string> extraArgs;$/;"	m	struct:CompilerConfig
+extract_file_name	scripts/plot.py	/^def extract_file_name(file_path: str):$/;"	f
+extract_loop_features	mlir_env/observations/classes/SV/analysis/utils/loop_api.py	/^def extract_loop_features(infos: list[LoopInfo]) -> np.ndarray:$/;"	f
+extract_op_names_from_file	scripts/get_ops.py	/^def extract_op_names_from_file(name, file_path):$/;"	f
+f	mt.py	/^f = fs[0]$/;"	v
+fake_mktemp	tests/test_actions_evalrunner_unit.py	/^def fake_mktemp(_content):$/;"	f
+fake_run	tests/test_actions_executor_and_runner_mock.py	/^    def fake_run(spec, input_bytes):$/;"	f	function:test_runner_apply_success
+fake_run	tests/test_actions_executor_and_runner_mock.py	/^    def fake_run(spec, input_bytes):$/;"	f	function:test_runner_apply_timeout
+fake_run	tests/test_actions_executor_and_runner_mock.py	/^    def fake_run(spec, input_bytes):$/;"	f	function:test_runner_apply_verify_fail
+fallback	mlir_env/views/spec.py	/^        fallback=None,$/;"	v
+fallback	mlir_env/views/spec.py	/^        fallback=ViewKind.MEMREF,$/;"	v
+fallback	mlir_env/views/spec.py	/^        fallback=ViewKind.SCF,$/;"	v
+field_metadata	backend/service/compiler_service.pb.h	/^      field_metadata[];$/;"	m	struct:TableStruct_compiler_5fservice_2eproto
+fields	backend/service/compiler_service_pb2.py	/^    fields=[$/;"	v
+file	backend/service/compiler_service_pb2.py	/^            file=DESCRIPTOR,$/;"	v
+file	backend/service/compiler_service_pb2.py	/^    file=DESCRIPTOR,$/;"	v
+file_default_instances	backend/service/compiler_service.pb.cc	/^static ::PROTOBUF_NAMESPACE_ID::Message const* const file_default_instances[] =$/;"	m	class:PROTOBUF_NAMESPACE_ID	file:
+file_level_enum_descriptors_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    file_level_enum_descriptors_compiler_5fservice_2eproto = nullptr;$/;"	m	class:constexpr::PROTOBUF_NAMESPACE_ID	file:
+file_level_metadata_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    file_level_metadata_compiler_5fservice_2eproto[6];$/;"	v	file:
+file_level_service_descriptors_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    file_level_service_descriptors_compiler_5fservice_2eproto = nullptr;$/;"	m	class:constexpr::PROTOBUF_NAMESPACE_ID	file:
+filename	backend/service/compiler_service_pb2.py	/^    filename=None,$/;"	v
+final	backend/service/compiler_service.grpc.pb.h	/^    class experimental_async final$/;"	c	class:final::final
+final	backend/service/compiler_service.grpc.pb.h	/^  class Stub final : public StubInterface {$/;"	c	class:final
+final	backend/service/compiler_service.grpc.pb.h	/^class MLIRService final {$/;"	c
+final	backend/service/compiler_service.pb.h	/^      ::PROTOBUF_NAMESPACE_ID::internal::ParseContext* ctx) final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^      ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::Metadata GetMetadata() const final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^  PROTOBUF_ATTRIBUTE_REINITIALIZES void Clear() final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^  bool IsInitialized() const final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^  size_t ByteSizeLong() const final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^  void CopyFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^  void MergeFrom(const ::PROTOBUF_NAMESPACE_ID::Message& from) final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/service/compiler_service.pb.h	/^  void SetCachedSize(int size) const final;$/;"	m	class:PROTOBUF_FINAL
+final	backend/tests/grpc_test/test_server.cpp	/^class TestServiceImpl final : public TestService::Service {$/;"	c	file:
+forward	mlir_env/agents/policy_based/policy/actor_critic.py	/^    def forward(self, x):$/;"	m	class:AttentionPooling
+forward	mlir_env/agents/policy_based/policy/actor_critic.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:ActorCriticPolicy
+forward	mlir_env/agents/policy_based/policy/mlp.py	/^    def forward(self, x):$/;"	m	class:AttentionPooling
+forward	mlir_env/agents/policy_based/policy/mlp.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:MLPPolicy
+forward	mlir_env/agents/policy_based/policy/rnn.py	/^    def forward(self, x: torch.Tensor, hidden: torch.Tensor = None):$/;"	m	class:RNNPolicy
+forward	mlir_env/agents/policy_based/policy/transformer.py	/^    def forward(self, x: torch.Tensor) -> torch.Tensor:$/;"	m	class:TransformerPolicy
+from_config	mlir_env/observations/builder.py	/^    def from_config(cls, cfg: Config, state_cfg: StateConfig) -> StateBuilder:$/;"	m	class:StateBuilder
+from_config	mlir_env/rewards/rewarder.py	/^    def from_config(cls, cfg: RewardConfig) -> Rewarder:$/;"	m	class:Rewarder
+from_yaml	mlir_env/core/config.py	/^    def from_yaml(path: str) -> Config:$/;"	m	class:Config
+from_yaml	mlir_env/core/context.py	/^    def from_yaml(cfg: Config, path: str) -> EpisodeContext:$/;"	m	class:EpisodeContext
+from_yaml	mlir_env/observations/classes/SV/engine.py	/^    def from_yaml(cls, cfg: Config, path: str) -> SVEngine:$/;"	m	class:SVEngine
+from_yaml	mlir_env/observations/config.py	/^    def from_yaml(cls, path: str) -> StateConfig:$/;"	m	class:StateConfig
+from_yaml	mlir_env/observations/interface.py	/^    def from_yaml(cls, config_path: str) -> "State": ...$/;"	m	class:State
+from_yaml	mlir_env/rewards/config.py	/^    def from_yaml(path: str) -> RewardConfig:$/;"	m	class:RewardConfig
+fs	mt.py	/^fs = list(m.body.operations)$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="CompileRequest.source_code",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="CompileRequest.target",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="CompileResponse.binary",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="CompileResponse.ir",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="MLIRService.CompileCode",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="MLIRService.OptimizeCode",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="MLIRService.runCode",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="OptimizeRequest.ir_bytes",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="OptimizeRequest.passes",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="OptimizeResponse.error",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="OptimizeResponse.ir_bytes",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="runRequest.ir_bytes",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^            full_name="runResponse.status",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^    full_name="CompileRequest",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^    full_name="CompileResponse",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^    full_name="MLIRService",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^    full_name="OptimizeRequest",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^    full_name="OptimizeResponse",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^    full_name="runRequest",$/;"	v
+full_name	backend/service/compiler_service_pb2.py	/^    full_name="runResponse",$/;"	v
+functions	mlir_env/views/viewer.py	/^    def functions(self):$/;"	m	class:ModuleView
+getBinSize	backend/passes/lib/mlir_termination_compile.cpp	/^bool MLIRGymCompiler::getBinSize() {$/;"	f	class:MLIRGymCompiler
+getConfig	backend/passes/lib/mlir_termination_compile.cpp	/^CompilerConfig MLIRGymCompiler::getConfig(std::string llvmBuildDir,$/;"	f	class:MLIRGymCompiler
+get_action	mlir_env/agents/base_agent.py	/^    def get_action(self, obs):$/;"	m	class:RLAgent
+get_action	mlir_env/agents/policy_based/actor_critic_agent.py	/^    def get_action(self, obs):$/;"	m	class:ActorCriticPolicyAgent
+get_action	mlir_env/agents/policy_based/base_agent.py	/^    def get_action(self, obs):$/;"	m	class:PolicyBasedAgent
+get_action	mlir_env/agents/value_based/base_agent.py	/^    def get_action(self, obs):$/;"	m	class:ValueBasedAgent
+get_action	run.py	/^def get_action(count):$/;"	f
+get_action_space_default	mlir_env/actions/space.py	/^def get_action_space_default():$/;"	f
+get_all_action_names	mlir_env/actions/registry.py	/^    def get_all_action_names(self) -> List[str]:$/;"	m	class:ActionRegistry
+get_all_mlir_tests	scripts/args_parser.py	/^def get_all_mlir_tests(tests_path):$/;"	f
+get_baseline	mlir_env/core/context.py	/^    def get_baseline(self) -> tuple[float, float, float]:$/;"	m	class:EpisodeContext
+get_baseline	tests/reward_classes/test_final_log_speedup.py	/^    def get_baseline(self):$/;"	m	class:DummyCtx
+get_baseline	tests/test_rewards_rewarder.py	/^    def get_baseline(self):$/;"	m	class:DummyCtx
+get_benchmark_flag	mlir_env/actions/runner.py	/^    def get_benchmark_flag(self, new_ir_path: str) -> str:$/;"	m	class:EvalRunner
+get_common_config	mlir_env/utils/config.py	/^def get_common_config():$/;"	f
+get_env_file	mlir_env/utils/config.py	/^def get_env_file(env):$/;"	f
+get_environ_vars	mlir_env/core/config.py	/^    def get_environ_vars() -> Dict[str, str]:$/;"	m	class:Config
+get_gradients	mlir_env/actions/basic_injector.py	/^    def get_gradients(self):$/;"	m	class:GradientHistoryVector
+get_id	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def get_id(scopeName: str, op: mlir_ir.Operation) -> str:$/;"	f
+get_info	mlir_env/core/mlir_world.py	/^    def get_info(self):$/;"	m	class:MLIRWorldEnv
+get_ir_hash	mlir_env/utils/ir_utils.py	/^def get_ir_hash(ir_text: str) -> str:$/;"	f
+get_last_k	mlir_env/actions/registry.py	/^    def get_last_k(self) -> List[Action]:$/;"	m	class:ActionRegistry
+get_lowering_dialect	mlir_env/utils/config.py	/^def get_lowering_dialect(*args):$/;"	f
+get_name	mlir_env/agents/base_agent.py	/^    def get_name(self):$/;"	m	class:RLAgent
+get_observation	mlir_env/core/mlir_world.py	/^    def get_observation(self, ir_text: str):$/;"	m	class:MLIRWorldEnv
+get_observation	mlir_env/observations/builder.py	/^    def get_observation(self, ir_text: str) -> spaces.Space:$/;"	m	class:StateBuilder
+get_past_action_names	mlir_env/actions/registry.py	/^    def get_past_action_names(self) -> List[str]:$/;"	m	class:ActionRegistry
+get_pipeline_command	mlir_env/actions/registry.py	/^    def get_pipeline_command(self) -> str:$/;"	m	class:ActionRegistry
+get_project_root	mlir_env/utils/config.py	/^def get_project_root():$/;"	f
+get_reward	mlir_env/rewards/rewarder.py	/^    def get_reward(self, ctx: EpisodeContext, sr: StepReturn) -> float:$/;"	m	class:Rewarder
+get_space	mlir_env/observations/builder.py	/^    def get_space(self) -> spaces.Space:$/;"	m	class:StateBuilder
+get_vector	mlir_env/actions/basic_injector.py	/^    def get_vector(self):$/;"	m	class:ActionHistoryVector
+globalVar	tests/conftest.py	/^def globalVar():$/;"	f
+has_default_value	backend/service/compiler_service_pb2.py	/^            has_default_value=False,$/;"	v
+hash	mlir_env/core/config.py	/^    def hash(self) -> str:$/;"	m	class:Config
+hash_window_len	tests/test_actions_layer_unit.py	/^    hash_window_len = 8$/;"	v	class:DummyCfg
+home	mt.py	/^home="\/home\/local\/ASURITE\/megan"$/;"	v
+id	mlir_env/__init__.py	/^    id="mlir_env\/mlir-v5",$/;"	v
+idx_to_action	mlir_env/actions/layer.py	/^    def idx_to_action(self, idx: int) -> Action:$/;"	m	class:ActionLayer
+index	backend/service/compiler_service_pb2.py	/^            index=0,$/;"	v
+index	backend/service/compiler_service_pb2.py	/^            index=1,$/;"	v
+index	backend/service/compiler_service_pb2.py	/^            index=2,$/;"	v
+index	backend/service/compiler_service_pb2.py	/^    index=0,$/;"	v
+info	tests/test_rewards_rewarder.py	/^    info = Info(index=idx, mask=([1] * mask_len))$/;"	v
+inject	mlir_env/actions/basic_injector.py	/^    def inject(self, obs_vector: np.ndarray):$/;"	m	class:ActionHistoryVector
+inject	mlir_env/actions/basic_injector.py	/^    def inject(self, params):$/;"	m	class:GradientHistoryVector
+inputFile	backend/passes/include/clang_mlir_toolchain.h	/^  std::string inputFile;$/;"	m	struct:CompilerConfig
+inputIR	backend/passes/include/mlir_termination_compile.h	/^  std::string inputIR;$/;"	m	class:MLIRGymCompiler
+input_type	backend/service/compiler_service_pb2.py	/^            input_type=_COMPILEREQUEST,$/;"	v
+input_type	backend/service/compiler_service_pb2.py	/^            input_type=_OPTIMIZEREQUEST,$/;"	v
+input_type	backend/service/compiler_service_pb2.py	/^            input_type=_RUNREQUEST,$/;"	v
+internal	backend/service/compiler_service.pb.h	/^namespace internal {$/;"	n
+internal_default_instance	backend/service/compiler_service.pb.h	/^  static inline const CompileRequest* internal_default_instance() {$/;"	f	class:PROTOBUF_FINAL
+internal_default_instance	backend/service/compiler_service.pb.h	/^  static inline const CompileResponse* internal_default_instance() {$/;"	f	class:PROTOBUF_FINAL
+internal_default_instance	backend/service/compiler_service.pb.h	/^  static inline const OptimizeRequest* internal_default_instance() {$/;"	f	class:PROTOBUF_FINAL
+internal_default_instance	backend/service/compiler_service.pb.h	/^  static inline const OptimizeResponse* internal_default_instance() {$/;"	f	class:PROTOBUF_FINAL
+internal_default_instance	backend/service/compiler_service.pb.h	/^  static inline const runRequest* internal_default_instance() {$/;"	f	class:PROTOBUF_FINAL
+internal_default_instance	backend/service/compiler_service.pb.h	/^  static inline const runResponse* internal_default_instance() {$/;"	f	class:PROTOBUF_FINAL
+ir	backend/service/compiler_service.pb.h	/^inline const std::string& CompileResponse::ir() const {$/;"	f	class:CompileResponse
+ir_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr ir_;$/;"	m	class:PROTOBUF_FINAL
+ir_affine_symbolic_and_scf	tests/observation_classes/analysis/test_loop_analysis.py	/^def ir_affine_symbolic_and_scf():$/;"	f
+ir_bytes	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeRequest::ir_bytes() const {$/;"	f	class:OptimizeRequest
+ir_bytes	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeResponse::ir_bytes() const {$/;"	f	class:OptimizeResponse
+ir_bytes	backend/service/compiler_service.pb.h	/^inline const std::string& runRequest::ir_bytes() const {$/;"	f	class:runRequest
+ir_bytes_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr ir_bytes_;$/;"	m	class:PROTOBUF_FINAL
+ir_has_changed	mlir_env/utils/common_utils.py	/^ir_has_changed = Requirement(none_of=ErrorBits.W_NO_CHANGE)$/;"	v
+ir_iter_args	tests/observation_classes/analysis/test_loop_analysis.py	/^def ir_iter_args():$/;"	f
+ir_nested_mixed	tests/observation_classes/analysis/test_loop_analysis.py	/^def ir_nested_mixed():$/;"	f
+ir_not_changed	mlir_env/utils/common_utils.py	/^ir_not_changed = Requirement(any_of=ErrorBits.W_NO_CHANGE)$/;"	v
+ir_single_for	tests/observation_classes/analysis/test_loop_analysis.py	/^def ir_single_for():$/;"	f
+ir_two_functions	tests/observation_classes/analysis/test_loop_analysis.py	/^def ir_two_functions():$/;"	f
+is_eval	mlir_env/actions/action.py	/^    def is_eval(self):$/;"	m	class:Action
+is_extendable	backend/service/compiler_service_pb2.py	/^    is_extendable=False,$/;"	v
+is_extension	backend/service/compiler_service_pb2.py	/^            is_extension=False,$/;"	v
+is_loop	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def is_loop(op: mlir_ir.Operation) -> bool:$/;"	f
+is_noop_recent	mlir_env/actions/registry.py	/^    def is_noop_recent(self, ir_text: str, action: Action) -> bool:$/;"	m	class:ActionRegistry
+kIndexInFileMessages	backend/service/compiler_service.pb.h	/^  static constexpr int kIndexInFileMessages = 0;$/;"	m	class:PROTOBUF_FINAL
+kIndexInFileMessages	backend/service/compiler_service.pb.h	/^  static constexpr int kIndexInFileMessages = 1;$/;"	m	class:PROTOBUF_FINAL
+kIndexInFileMessages	backend/service/compiler_service.pb.h	/^  static constexpr int kIndexInFileMessages = 2;$/;"	m	class:PROTOBUF_FINAL
+kIndexInFileMessages	backend/service/compiler_service.pb.h	/^  static constexpr int kIndexInFileMessages = 3;$/;"	m	class:PROTOBUF_FINAL
+kIndexInFileMessages	backend/service/compiler_service.pb.h	/^  static constexpr int kIndexInFileMessages = 4;$/;"	m	class:PROTOBUF_FINAL
+kIndexInFileMessages	backend/service/compiler_service.pb.h	/^  static constexpr int kIndexInFileMessages = 5;$/;"	m	class:PROTOBUF_FINAL
+k_actions	tests/test_actions_layer_unit.py	/^    k_actions = 3$/;"	v	class:DummyCfg
+label	backend/service/compiler_service_pb2.py	/^            label=1,$/;"	v
+label	backend/service/compiler_service_pb2.py	/^            label=3,$/;"	v
+legal_actions	mlir_env/actions/registry.py	/^    def legal_actions(self, phase: Phase) -> List[Action]:$/;"	m	class:ActionRegistry
+legal_indices	mlir_env/actions/registry.py	/^    def legal_indices(self, phase: Phase) -> np.ndarray:$/;"	m	class:ActionRegistry
+libs	backend/passes/include/clang_mlir_toolchain.h	/^  std::vector<std::string> libs;$/;"	m	struct:CompilerConfig
+linkStatic	backend/passes/include/clang_mlir_toolchain.h	/^  bool linkStatic = false;$/;"	m	struct:CompilerConfig
+llvmBuildDir	backend/passes/include/clang_mlir_toolchain.h	/^  std::string llvmBuildDir;$/;"	m	struct:CompilerConfig
+llvmBuildDir	backend/passes/include/mlir_termination_compile.h	/^  std::string llvmBuildDir;$/;"	m	class:MLIRGymCompiler
+llvmCtx	backend/passes/include/mlir_termination_compile.h	/^  llvm::LLVMContext llvmCtx;$/;"	m	class:MLIRGymCompiler
+llvmIRFilename	backend/passes/include/mlir_termination_compile.h	/^  std::string llvmIRFilename;$/;"	m	class:MLIRGymCompiler
+llvmModule	backend/passes/include/mlir_termination_compile.h	/^  std::unique_ptr<llvm::Module> llvmModule;$/;"	m	class:MLIRGymCompiler
+llvm_build_dir	tests/test_actions_evalrunner_unit.py	/^    llvm_build_dir = os.environ.get("LLVM_BUILD_DIR")$/;"	v	class:DummyCfg
+llvm_build_dir	tests/test_actions_layer_unit.py	/^    llvm_build_dir = os.environ.get("LLVM_BUILD_DIR")$/;"	v	class:DummyCfg
+load	mlir_env/observations/classes/SV/engine.py	/^        def load(section: str, cls_):$/;"	f	function:SVEngine.from_yaml
+load_checkpoint	mlir_env/agents/policy_based/base_agent.py	/^    def load_checkpoint(self):$/;"	m	class:PolicyBasedAgent
+log_step	mlir_env/utils/logger.py	/^    def log_step(self, result):$/;"	m	class:MetricsLogger
+lowerModule	backend/passes/lib/mlir_termination_compile.cpp	/^bool MLIRGymCompiler::lowerModule() {$/;"	f	class:MLIRGymCompiler
+m	mt.py	/^    m = Module.parse(gemm_ir)$/;"	v
+m	tests/test_rewards_rewarder.py	/^        m = Metrics(latency_ms=latency_ms, compile_ms=compile_ms, size_kb=size_kb)$/;"	v
+m	tests/test_rewards_rewarder.py	/^    m = None$/;"	v
+m1	mt.py	/^    m1 = Module.parse(affine_view_ir)$/;"	v
+main	backend/tests/grpc_test/test_server.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	backend/tests/llvm_test/test_llvm.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	backend/tests/mlir_test/test_mlir.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	backend/tests/protobuf_test/test_protobuf.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	scripts/clang-format-hook.py	/^def main():$/;"	f
+main	scripts/get_ops.py	/^def main():$/;"	f
+make_layer_with_custom_space	tests/test_actions_layer_unit.py	/^def make_layer_with_custom_space():$/;"	f
+make_registry	tests/test_actions_registry.py	/^def make_registry(pass_limits=2, hash_window_len=3):$/;"	f
+make_space	tests/test_actions_layer_unit.py	/^def make_space():$/;"	f
+mask	mlir_env/actions/layer.py	/^    def mask(self, ir_text: str) -> np.ndarray:$/;"	m	class:ActionLayer
+mask_actions	mlir_env/actions/registry.py	/^    def mask_actions(self, _from: Union[Phase, str]) -> np.ndarray:$/;"	m	class:ActionRegistry
+masked_penalty	mlir_env/rewards/rewarder.py	/^    masked_penalty = 0.1$/;"	v	class:Rewarder
+median_py	benchmarks/benchmark.sh	/^median_py() { python3 - "$@" <<'PY'$/;"	f
+message_type	backend/service/compiler_service_pb2.py	/^            message_type=None,$/;"	v
+metadata	mlir_env/core/mlir_world.py	/^    metadata = {"render_modes": ["human", "rgb_array"], "ren": 4}$/;"	v	class:MLIRWorldEnv
+methods	backend/service/compiler_service_pb2.py	/^    methods=[$/;"	v
+minimal_ir	tests/e2e/test_action_layer.py	/^def minimal_ir():$/;"	f
+minimal_ir	tests/e2e/test_rewarder.py	/^def minimal_ir():$/;"	f
+mk_step_return	tests/test_rewards_rewarder.py	/^def mk_step_return($/;"	f
+mktemp	mlir_env/utils/benchmark_utils.py	/^def mktemp(ir_text: str, filename: Optional[str] = "run.mlir"):$/;"	f
+mlirModule	backend/passes/include/mlir_termination_compile.h	/^  mlir::OwningOpRef<mlir::ModuleOp> mlirModule;$/;"	m	class:MLIRGymCompiler
+moving_average	scripts/plot.py	/^    def moving_average(data, window):$/;"	f	function:plot_metrics
+ms_py	benchmarks/benchmark.sh	/^ms_py() { python3 - "$@" <<'PY'$/;"	f
+mutable_binary	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::mutable_binary() {$/;"	f	class:CompileResponse
+mutable_error	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::mutable_error() {$/;"	f	class:OptimizeResponse
+mutable_ir	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::mutable_ir() {$/;"	f	class:CompileResponse
+mutable_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeRequest::mutable_ir_bytes() {$/;"	f	class:OptimizeRequest
+mutable_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::mutable_ir_bytes() {$/;"	f	class:OptimizeResponse
+mutable_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* runRequest::mutable_ir_bytes() {$/;"	f	class:runRequest
+mutable_passes	backend/service/compiler_service.pb.h	/^OptimizeRequest::mutable_passes() {$/;"	f	class:OptimizeRequest
+mutable_passes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeRequest::mutable_passes(int index) {$/;"	f	class:OptimizeRequest
+mutable_source_code	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::mutable_source_code() {$/;"	f	class:CompileRequest
+mutable_status	backend/service/compiler_service.pb.h	/^inline std::string* runResponse::mutable_status() {$/;"	f	class:runResponse
+mutable_target	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::mutable_target() {$/;"	f	class:CompileRequest
+name	backend/service/compiler_service_pb2.py	/^            name="CompileCode",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="OptimizeCode",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="binary",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="error",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="ir",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="ir_bytes",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="passes",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="runCode",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="source_code",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="status",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^            name="target",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="CompileRequest",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="CompileResponse",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="MLIRService",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="OptimizeRequest",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="OptimizeResponse",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="compiler_service.proto",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="runRequest",$/;"	v
+name	backend/service/compiler_service_pb2.py	/^    name="runResponse",$/;"	v
+name	mlir_env/views/spec.py	/^        name="affine",$/;"	v
+name	mlir_env/views/spec.py	/^        name="memref",$/;"	v
+name	mlir_env/views/spec.py	/^        name="scf",$/;"	v
+name	mlir_env/views/spec.py	/^        name="vector",$/;"	v
+nested_types	backend/service/compiler_service_pb2.py	/^    nested_types=[],$/;"	v
+noop_spy	tests/test_actions_layer_unit.py	/^    def noop_spy(ir, a):$/;"	f	function:test_non_eval_action_updates_registry_and_noop_on_unchanged
+number	backend/service/compiler_service_pb2.py	/^            number=1,$/;"	v
+number	backend/service/compiler_service_pb2.py	/^            number=2,$/;"	v
+observe	mlir_env/observations/classes/SV/engine.py	/^    def observe(self, ir_text: str) -> Any:$/;"	m	class:SVEngine
+observe	mlir_env/observations/interface.py	/^    def observe($/;"	m	class:State
+offsets	backend/service/compiler_service.pb.h	/^  static const ::PROTOBUF_NAMESPACE_ID::uint32 offsets[];$/;"	m	struct:TableStruct_compiler_5fservice_2eproto
+ok	mlir_env/views/view_runner.py	/^        def ok(pass_flag: str) -> bool:$/;"	f	function:ViewRunner._probe
+on_terminal	mlir_env/rewards/interface.py	/^    def on_terminal(self, obs: dict, metrics: Metrics, ctx: EpisodeContext) -> None: ...$/;"	m	class:Potential
+on_terminal	tests/test_rewards_interface.py	/^        def on_terminal(self, obs: dict, metrics, ctx) -> None:$/;"	m	class:test_register_potential_decorator_registers_class._DummyPotential
+oneofs	backend/service/compiler_service_pb2.py	/^    oneofs=[],$/;"	v
+operator =	backend/service/compiler_service.pb.h	/^  inline CompileRequest& operator=(const CompileRequest& from) {$/;"	f	class:PROTOBUF_FINAL
+operator =	backend/service/compiler_service.pb.h	/^  inline CompileResponse& operator=(const CompileResponse& from) {$/;"	f	class:PROTOBUF_FINAL
+operator =	backend/service/compiler_service.pb.h	/^  inline OptimizeRequest& operator=(const OptimizeRequest& from) {$/;"	f	class:PROTOBUF_FINAL
+operator =	backend/service/compiler_service.pb.h	/^  inline OptimizeResponse& operator=(const OptimizeResponse& from) {$/;"	f	class:PROTOBUF_FINAL
+operator =	backend/service/compiler_service.pb.h	/^  inline runRequest& operator=(const runRequest& from) {$/;"	f	class:PROTOBUF_FINAL
+operator =	backend/service/compiler_service.pb.h	/^  inline runResponse& operator=(const runResponse& from) {$/;"	f	class:PROTOBUF_FINAL
+ops	mt.py	/^ops = list(blks.operations)$/;"	v
+output	backend/passes/include/mlir_termination_compile.h	/^  std::string output;$/;"	m	class:MLIRGymCompiler
+outputFile	backend/passes/include/clang_mlir_toolchain.h	/^  std::string outputFile;$/;"	m	struct:CompilerConfig
+output_type	backend/service/compiler_service_pb2.py	/^            output_type=_COMPILERESPONSE,$/;"	v
+output_type	backend/service/compiler_service_pb2.py	/^            output_type=_OPTIMIZERESPONSE,$/;"	v
+output_type	backend/service/compiler_service_pb2.py	/^            output_type=_RUNRESPONSE,$/;"	v
+override	backend/service/compiler_service.grpc.pb.h	/^                                ::OptimizeResponse* response) override;$/;"	m	class:final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                                ::grpc::CompletionQueue* cq) override;$/;"	m	class:final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                               ::CompileResponse* response) override;$/;"	m	class:final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                               ::grpc::CompletionQueue* cq) override;$/;"	m	class:final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                           ::runResponse* response) override;$/;"	m	class:final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                        ::grpc::ClientUnaryReactor* reactor) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                        std::function<void(::grpc::Status)>) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                       ::grpc::ClientUnaryReactor* reactor) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                       std::function<void(::grpc::Status)>) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                   ::grpc::ClientUnaryReactor* reactor) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                   ::grpc::experimental::ClientUnaryReactor* reactor) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^                   std::function<void(::grpc::Status)>) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^          ::grpc::experimental::ClientUnaryReactor* reactor) override;$/;"	m	class:final::final::final
+override	backend/service/compiler_service.grpc.pb.h	/^        ::grpc::CompletionQueue* cq) override;$/;"	m	class:final::final
+pack	mlir_env/observations/classes/SV/packer.py	/^    def pack($/;"	m	class:Packer
+package	backend/service/compiler_service_pb2.py	/^    package="",$/;"	v
+parent_op	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def parent_op(op: mlir_ir.Operation) -> mlir_ir.Operation | None:$/;"	f
+parseModule	backend/passes/lib/mlir_termination_compile.cpp	/^bool MLIRGymCompiler::parseModule() {$/;"	f	class:MLIRGymCompiler
+parse_args	scripts/args_parser.py	/^def parse_args():$/;"	f
+parse_baseline_metrics	mlir_env/utils/benchmark_utils.py	/^def parse_baseline_metrics(stdout: Union[bytes, str]) -> Metrics:$/;"	f
+parse_dialects	scripts/args_parser.py	/^def parse_dialects():$/;"	f
+partial_gemm	tests/e2e/test_sv_engine.py	/^def partial_gemm():$/;"	f
+partial_gemm	tests/test_sv_state.py	/^def partial_gemm():$/;"	f
+pass_limits	tests/test_actions_layer_unit.py	/^    pass_limits = 10$/;"	v	class:DummyCfg
+passes	backend/service/compiler_service.pb.h	/^OptimizeRequest::passes() const {$/;"	f	class:OptimizeRequest
+passes	backend/service/compiler_service.pb.h	/^inline const std::string& OptimizeRequest::passes(int index) const {$/;"	f	class:OptimizeRequest
+passes	mlir_env/views/spec.py	/^        passes=[$/;"	v
+passes_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::RepeatedPtrField<std::string> passes_;$/;"	m	class:PROTOBUF_FINAL
+passes_size	backend/service/compiler_service.pb.h	/^inline int OptimizeRequest::passes_size() const {$/;"	f	class:OptimizeRequest
+path	lit_tests/lit.cfg.py	/^    path = which(t, tool_dirs)$/;"	v
+path	mt.py	/^path = f"{home}\/workspace\/branches\/change-3\/benchmarks\/GEMM\/gemm.mlir"$/;"	v
+path	mt.py	/^path = f"{home}\/workspace\/branches\/change-3\/benchmarks\/settings\/gemm_config.yaml"$/;"	v
+phase_of	tests/test_actions_registry.py	/^def phase_of(*bits):$/;"	f
+pick_view	mlir_env/views/viewer.py	/^def pick_view(intent: AnalysisIntent) -> str:$/;"	f
+pipeline_atom	mlir_env/actions/action.py	/^    def pipeline_atom(self) -> str:$/;"	m	class:Action
+pipeline_body	mlir_env/actions/action.py	/^    def pipeline_body(self) -> str:$/;"	m	class:Action
+plot_gradient_norms	scripts/plot.py	/^def plot_gradient_norms(norms, suffix=""):$/;"	f
+plot_metrics	scripts/plot.py	/^def plot_metrics($/;"	f
+plot_pca	scripts/plot.py	/^def plot_pca(embeddings, suffix=""):$/;"	f
+plot_similarity_heatmap	scripts/plot.py	/^def plot_similarity_heatmap(embeddings, num_samples_to_show=50, suffix=""):$/;"	f
+plot_tsne	scripts/plot.py	/^def plot_tsne(embeddings, metadata, suffix=""):$/;"	f
+precond	mlir_env/actions/action.py	/^    def precond(self, phase: Phase) -> bool:$/;"	m	class:Action
+protodesc_cold	backend/service/compiler_service.pb.cc	/^        protodesc_cold) = {$/;"	v
+protodesc_cold	backend/service/compiler_service.pb.cc	/^    [] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =$/;"	v
+protodesc_cold	backend/service/compiler_service.pb.cc	/^    schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {$/;"	v	file:
+record_noop	mlir_env/actions/registry.py	/^    def record_noop(self, ir_text: str, action: Action) -> None:$/;"	m	class:ActionRegistry
+register_final	mlir_env/rewards/interface.py	/^def register_final(name: str):$/;"	f
+register_potential	mlir_env/rewards/interface.py	/^def register_potential(name: str):$/;"	f
+register_state	mlir_env/observations/interface.py	/^def register_state(name: str):$/;"	f
+release_binary	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::release_binary() {$/;"	f	class:CompileResponse
+release_error	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::release_error() {$/;"	f	class:OptimizeResponse
+release_ir	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::release_ir() {$/;"	f	class:CompileResponse
+release_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeRequest::release_ir_bytes() {$/;"	f	class:OptimizeRequest
+release_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::release_ir_bytes() {$/;"	f	class:OptimizeResponse
+release_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* runRequest::release_ir_bytes() {$/;"	f	class:runRequest
+release_source_code	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::release_source_code() {$/;"	f	class:CompileRequest
+release_status	backend/service/compiler_service.pb.h	/^inline std::string* runResponse::release_status() {$/;"	f	class:runResponse
+release_target	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::release_target() {$/;"	f	class:CompileRequest
+render	mlir_env/core/mlir_world.py	/^    def render(self):$/;"	m	class:MLIRWorldEnv
+requires	mlir_env/views/spec.py	/^        requires={"oneshot": True, "affine": False, "vectorize": False},$/;"	v
+requires	mlir_env/views/spec.py	/^        requires={"oneshot": True, "affine": True, "vectorize": False},$/;"	v
+requires	mlir_env/views/spec.py	/^        requires={"oneshot": True, "vectorize": True, "affine": False},$/;"	v
+res	tests/test_rewards_rewarder.py	/^    res = StepResult($/;"	v
+reset	backend/passes/lib/clang_mlir_toolchain.cpp	/^void ClangCompiler::reset() {$/;"	f	class:ClangCompiler
+reset	mlir_env/actions/basic_injector.py	/^    def reset(self):$/;"	m	class:ActionHistoryVector
+reset	mlir_env/core/mlir_world.py	/^    def reset(self, seed=None, options=None):$/;"	m	class:MLIRWorldEnv
+reset	mlir_env/observations/builder.py	/^    def reset(self) -> None:$/;"	m	class:StateBuilder
+reset	mlir_env/observations/classes/SV/engine.py	/^    def reset(self) -> None:$/;"	m	class:SVEngine
+reset	mlir_env/observations/interface.py	/^    def reset(self) -> None: ...$/;"	m	class:State
+reset_for	mlir_env/core/context.py	/^    def reset_for(self, new_path: str | None = None) -> EpisodeContext:$/;"	m	class:EpisodeContext
+resolve_value_int	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^    def resolve_value_int(self, v: mlir_ir.Value) -> int | None:$/;"	m	class:ScalarDimResolver
+returnError	backend/passes/lib/mlir_termination_compile.cpp	/^void MLIRGymCompiler::returnError(CompileResult &result,$/;"	f	class:MLIRGymCompiler
+rpcmethod_CompileCode_	backend/service/compiler_service.grpc.pb.h	/^    const ::grpc::internal::RpcMethod rpcmethod_CompileCode_;$/;"	m	class:final::final
+rpcmethod_OptimizeCode_	backend/service/compiler_service.grpc.pb.h	/^    const ::grpc::internal::RpcMethod rpcmethod_OptimizeCode_;$/;"	m	class:final::final
+rpcmethod_runCode_	backend/service/compiler_service.grpc.pb.h	/^    const ::grpc::internal::RpcMethod rpcmethod_runCode_;$/;"	m	class:final::final
+run	mlir_env/actions/executor.py	/^    def run(self, spec: CommandSpec, input_bytes: bytes) -> ExecResult:$/;"	m	class:SubprocessExecutor
+run	mlir_env/observations/classes/SV/analysis/loop_analysis.py	/^    def run(self, moduleView: ModuleView) -> LoopInfoOut:$/;"	m	class:LoopInformationExtractor
+run	mlir_env/observations/classes/SV/analysis/memory_analysis.py	/^    def run(self, moduleView: "ModuleView", records: List[LoopInfo]) -> MemoryFeatures:$/;"	m	class:MemoryInformationExtractor
+run	tests/test_actions_evalrunner_unit.py	/^    def run(self, spec, input_bytes=None):$/;"	m	class:FakeExecutor
+runCode	backend/service/compiler_service.grpc.pb.cc	/^::grpc::Status MLIRService::Service::runCode(::grpc::ServerContext* context,$/;"	f	class:MLIRService::Service
+runCode	backend/service/compiler_service.grpc.pb.cc	/^::grpc::Status MLIRService::Stub::runCode(::grpc::ClientContext* context,$/;"	f	class:MLIRService::Stub
+runCode	backend/service/compiler_service.grpc.pb.cc	/^void MLIRService::Stub::experimental_async::runCode($/;"	f	class:MLIRService::Stub::experimental_async
+runCode	backend/service/compiler_service.grpc.pb.h	/^    virtual ::grpc::ServerUnaryReactor* runCode($/;"	f	class:final::ExperimentalWithCallbackMethod_runCode
+runCode	backend/service/compiler_service.grpc.pb.h	/^    virtual ::grpc::ServerUnaryReactor* runCode($/;"	f	class:final::ExperimentalWithRawCallbackMethod_runCode
+runRequest	backend/service/compiler_service.pb.cc	/^runRequest::runRequest(::PROTOBUF_NAMESPACE_ID::Arena* arena)$/;"	f	class:runRequest
+runRequest	backend/service/compiler_service.pb.cc	/^runRequest::runRequest(const runRequest& from)$/;"	f	class:runRequest
+runRequest	backend/service/compiler_service.pb.h	/^  inline runRequest() : runRequest(nullptr){};$/;"	f	class:PROTOBUF_FINAL
+runRequest	backend/service/compiler_service.pb.h	/^  runRequest(runRequest&& from) noexcept : runRequest() {$/;"	f	class:PROTOBUF_FINAL
+runRequest	backend/service/compiler_service_pb2.py	/^runRequest = _reflection.GeneratedProtocolMessageType($/;"	v
+runRequestDefaultTypeInternal	backend/service/compiler_service.pb.cc	/^class runRequestDefaultTypeInternal {$/;"	c	file:
+runResponse	backend/service/compiler_service.pb.cc	/^runResponse::runResponse(::PROTOBUF_NAMESPACE_ID::Arena* arena)$/;"	f	class:runResponse
+runResponse	backend/service/compiler_service.pb.cc	/^runResponse::runResponse(const runResponse& from)$/;"	f	class:runResponse
+runResponse	backend/service/compiler_service.pb.h	/^  inline runResponse() : runResponse(nullptr){};$/;"	f	class:PROTOBUF_FINAL
+runResponse	backend/service/compiler_service.pb.h	/^  runResponse(runResponse&& from) noexcept : runResponse() {$/;"	f	class:PROTOBUF_FINAL
+runResponse	backend/service/compiler_service_pb2.py	/^runResponse = _reflection.GeneratedProtocolMessageType($/;"	v
+runResponseDefaultTypeInternal	backend/service/compiler_service.pb.cc	/^class runResponseDefaultTypeInternal {$/;"	c	file:
+run_lit	mlir_env/utils/llvm_lit_invoker.py	/^def run_lit(path, flags):$/;"	f
+sameOutput	backend/passes/include/mlir_termination_compile.h	/^  bool sameOutput = false;$/;"	m	struct:CompileResult
+save_checkpoint	mlir_env/agents/policy_based/base_agent.py	/^    def save_checkpoint(self, epoch, loss):$/;"	m	class:PolicyBasedAgent
+save_csv	mlir_env/utils/logger.py	/^    def save_csv(self):$/;"	m	class:MetricsLogger
+save_op_names_to_file	scripts/get_ops.py	/^def save_op_names_to_file(op_names, folder_name, dialect_name):$/;"	f
+savefig	scripts/plot.py	/^def savefig(title: str, out_dir: str = ".\/snapshots", suffix: str = ""):$/;"	f
+scc_info_CompileRequest_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    scc_info_CompileRequest_compiler_5fservice_2eproto = {$/;"	v
+scc_info_CompileResponse_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    scc_info_CompileResponse_compiler_5fservice_2eproto = {$/;"	v
+scc_info_OptimizeRequest_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    scc_info_OptimizeRequest_compiler_5fservice_2eproto = {$/;"	v
+scc_info_OptimizeResponse_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    scc_info_OptimizeResponse_compiler_5fservice_2eproto = {$/;"	v
+scc_info_runRequest_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    scc_info_runRequest_compiler_5fservice_2eproto = {$/;"	v
+scc_info_runResponse_compiler_5fservice_2eproto	backend/service/compiler_service.pb.cc	/^    scc_info_runResponse_compiler_5fservice_2eproto = {$/;"	v
+schema_id	mlir_env/observations/classes/SV/engine.py	/^    def schema_id(self) -> str:$/;"	m	class:SVEngine
+schema_id	mlir_env/observations/interface.py	/^    def schema_id(self) -> str: ...$/;"	m	class:State
+schema_meta	mlir_env/observations/classes/SV/engine.py	/^    def schema_meta(self) -> dict[str, Any]:$/;"	m	class:SVEngine
+schema_meta	mlir_env/observations/interface.py	/^    def schema_meta(self) -> Dict[str, Any]: ...  # JSON-serializable class information$/;"	m	class:State
+scope_name	mlir_env/actions/action.py	/^    def scope_name(self) -> str:$/;"	m	class:Action
+seed	mlir_env/core/mlir_world.py	/^seed = 42$/;"	v
+serialization_table	backend/service/compiler_service.pb.h	/^      serialization_table[];$/;"	m	struct:TableStruct_compiler_5fservice_2eproto
+serialized_end	backend/service/compiler_service_pb2.py	/^    serialized_end=126,$/;"	v
+serialized_end	backend/service/compiler_service_pb2.py	/^    serialized_end=179,$/;"	v
+serialized_end	backend/service/compiler_service_pb2.py	/^    serialized_end=232,$/;"	v
+serialized_end	backend/service/compiler_service_pb2.py	/^    serialized_end=264,$/;"	v
+serialized_end	backend/service/compiler_service_pb2.py	/^    serialized_end=295,$/;"	v
+serialized_end	backend/service/compiler_service_pb2.py	/^    serialized_end=452,$/;"	v
+serialized_end	backend/service/compiler_service_pb2.py	/^    serialized_end=79,$/;"	v
+serialized_options	backend/service/compiler_service_pb2.py	/^            serialized_options=None,$/;"	v
+serialized_options	backend/service/compiler_service_pb2.py	/^    serialized_options=None,$/;"	v
+serialized_pb	backend/service/compiler_service_pb2.py	/^    serialized_pb=b'\\n\\x16\\x63ompiler_service.proto"5\\n\\x0e\\x43ompileRequest\\x12\\x13\\n\\x0bsource_code\\x18\\x01 \\x01(\\t\\x12\\x0e\\n\\x06target\\x18\\x02 \\x01(\\t"-\\n\\x0f\\x43ompileResponse\\x12\\n\\n\\x02ir\\x18\\x01 \\x01(\\t\\x12\\x0e\\n\\x06\\x62inary\\x18\\x02 \\x01(\\x0c"3\\n\\x0fOptimizeRequest\\x12\\x10\\n\\x08ir_bytes\\x18\\x01 \\x01(\\x0c\\x12\\x0e\\n\\x06passes\\x18\\x02 \\x03(\\t"3\\n\\x10OptimizeResponse\\x12\\x10\\n\\x08ir_bytes\\x18\\x01 \\x01(\\x0c\\x12\\r\\n\\x05\\x65rror\\x18\\x02 \\x01(\\t"\\x1e\\n\\nrunRequest\\x12\\x10\\n\\x08ir_bytes\\x18\\x01 \\x01(\\x0c"\\x1d\\n\\x0brunResponse\\x12\\x0e\\n\\x06status\\x18\\x01 \\x01(\\t2\\x9a\\x01\\n\\x0bMLIRService\\x12\\x30\\n\\x0b\\x43ompileCode\\x12\\x0f.CompileRequest\\x1a\\x10.CompileResponse\\x12\\x33\\n\\x0cOptimizeCode\\x12\\x10.OptimizeRequest\\x1a\\x11.OptimizeResponse\\x12$\\n\\x07runCode\\x12\\x0b.runRequest\\x1a\\x0c.runResponseb\\x06proto3',$/;"	v
+serialized_start	backend/service/compiler_service_pb2.py	/^    serialized_start=128,$/;"	v
+serialized_start	backend/service/compiler_service_pb2.py	/^    serialized_start=181,$/;"	v
+serialized_start	backend/service/compiler_service_pb2.py	/^    serialized_start=234,$/;"	v
+serialized_start	backend/service/compiler_service_pb2.py	/^    serialized_start=26,$/;"	v
+serialized_start	backend/service/compiler_service_pb2.py	/^    serialized_start=266,$/;"	v
+serialized_start	backend/service/compiler_service_pb2.py	/^    serialized_start=298,$/;"	v
+serialized_start	backend/service/compiler_service_pb2.py	/^    serialized_start=81,$/;"	v
+service_full_name	backend/service/compiler_service.grpc.pb.h	/^  static constexpr char const* service_full_name() { return "MLIRService"; }$/;"	f	class:final
+set_allocated_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_allocated_binary(std::string* binary) {$/;"	f	class:CompileResponse
+set_allocated_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_allocated_error(std::string* error) {$/;"	f	class:OptimizeResponse
+set_allocated_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_allocated_ir(std::string* ir) {$/;"	f	class:CompileResponse
+set_allocated_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_allocated_ir_bytes(std::string* ir_bytes) {$/;"	f	class:OptimizeRequest
+set_allocated_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_allocated_ir_bytes(std::string* ir_bytes) {$/;"	f	class:OptimizeResponse
+set_allocated_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::set_allocated_ir_bytes(std::string* ir_bytes) {$/;"	f	class:runRequest
+set_allocated_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_allocated_source_code($/;"	f	class:CompileRequest
+set_allocated_status	backend/service/compiler_service.pb.h	/^inline void runResponse::set_allocated_status(std::string* status) {$/;"	f	class:runResponse
+set_allocated_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_allocated_target(std::string* target) {$/;"	f	class:CompileRequest
+set_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_binary(const char* value) {$/;"	f	class:CompileResponse
+set_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_binary(const std::string& value) {$/;"	f	class:CompileResponse
+set_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_binary(const void* value, size_t size) {$/;"	f	class:CompileResponse
+set_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_binary(std::string&& value) {$/;"	f	class:CompileResponse
+set_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_error(const char* value) {$/;"	f	class:OptimizeResponse
+set_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_error(const char* value, size_t size) {$/;"	f	class:OptimizeResponse
+set_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_error(const std::string& value) {$/;"	f	class:OptimizeResponse
+set_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_error(std::string&& value) {$/;"	f	class:OptimizeResponse
+set_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_ir(const char* value) {$/;"	f	class:CompileResponse
+set_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_ir(const char* value, size_t size) {$/;"	f	class:CompileResponse
+set_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_ir(const std::string& value) {$/;"	f	class:CompileResponse
+set_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::set_ir(std::string&& value) {$/;"	f	class:CompileResponse
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_ir_bytes(const char* value) {$/;"	f	class:OptimizeRequest
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_ir_bytes(const std::string& value) {$/;"	f	class:OptimizeRequest
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_ir_bytes(const void* value, size_t size) {$/;"	f	class:OptimizeRequest
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_ir_bytes(std::string&& value) {$/;"	f	class:OptimizeRequest
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_ir_bytes(const char* value) {$/;"	f	class:OptimizeResponse
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_ir_bytes(const std::string& value) {$/;"	f	class:OptimizeResponse
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_ir_bytes(const void* value, size_t size) {$/;"	f	class:OptimizeResponse
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::set_ir_bytes(std::string&& value) {$/;"	f	class:OptimizeResponse
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::set_ir_bytes(const char* value) {$/;"	f	class:runRequest
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::set_ir_bytes(const std::string& value) {$/;"	f	class:runRequest
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::set_ir_bytes(const void* value, size_t size) {$/;"	f	class:runRequest
+set_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::set_ir_bytes(std::string&& value) {$/;"	f	class:runRequest
+set_name	mlir_env/agents/base_agent.py	/^    def set_name(self, name):$/;"	m	class:RLAgent
+set_name	mlir_env/agents/policy_based/base_agent.py	/^    def set_name(self, name):$/;"	m	class:PolicyBasedAgent
+set_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_passes(int index, const char* value) {$/;"	f	class:OptimizeRequest
+set_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_passes(int index, const char* value,$/;"	f	class:OptimizeRequest
+set_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_passes(int index, const std::string& value) {$/;"	f	class:OptimizeRequest
+set_passes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::set_passes(int index, std::string&& value) {$/;"	f	class:OptimizeRequest
+set_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_source_code(const char* value) {$/;"	f	class:CompileRequest
+set_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_source_code(const char* value, size_t size) {$/;"	f	class:CompileRequest
+set_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_source_code(const std::string& value) {$/;"	f	class:CompileRequest
+set_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_source_code(std::string&& value) {$/;"	f	class:CompileRequest
+set_status	backend/service/compiler_service.pb.h	/^inline void runResponse::set_status(const char* value) {$/;"	f	class:runResponse
+set_status	backend/service/compiler_service.pb.h	/^inline void runResponse::set_status(const char* value, size_t size) {$/;"	f	class:runResponse
+set_status	backend/service/compiler_service.pb.h	/^inline void runResponse::set_status(const std::string& value) {$/;"	f	class:runResponse
+set_status	backend/service/compiler_service.pb.h	/^inline void runResponse::set_status(std::string&& value) {$/;"	f	class:runResponse
+set_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_target(const char* value) {$/;"	f	class:CompileRequest
+set_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_target(const char* value, size_t size) {$/;"	f	class:CompileRequest
+set_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_target(const std::string& value) {$/;"	f	class:CompileRequest
+set_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::set_target(std::string&& value) {$/;"	f	class:CompileRequest
+source_code	backend/service/compiler_service.pb.h	/^inline const std::string& CompileRequest::source_code() const {$/;"	f	class:CompileRequest
+source_code_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr source_code_;$/;"	m	class:PROTOBUF_FINAL
+space	mlir_env/actions/layer.py	/^    def space(self):$/;"	m	class:ActionLayer
+status	backend/service/compiler_service.pb.h	/^inline const std::string& runResponse::status() const {$/;"	f	class:runResponse
+status_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr status_;$/;"	m	class:PROTOBUF_FINAL
+stdev_py	benchmarks/benchmark.sh	/^stdev_py() { python3 - "$@" <<'PY'$/;"	f
+step	mlir_env/core/mlir_world.py	/^    def step(self, action_idx):$/;"	m	class:MLIRWorldEnv
+step_of	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^    def step_of(self, op: mlir_ir.Operation) -> int | None:$/;"	m	class:ScalarDimResolver
+stub	backend/service/compiler_service.grpc.pb.h	/^      Stub* stub() { return stub_; }$/;"	f	class:final::final::final
+stub_	backend/service/compiler_service.grpc.pb.h	/^      Stub* stub_;$/;"	m	class:final::final::final
+success	backend/passes/include/mlir_termination_compile.h	/^  bool success;$/;"	m	struct:CompileResult
+swap	backend/service/compiler_service.pb.h	/^  friend void swap(CompileRequest& a, CompileRequest& b) { a.Swap(&b); }$/;"	f	class:PROTOBUF_FINAL
+swap	backend/service/compiler_service.pb.h	/^  friend void swap(CompileResponse& a, CompileResponse& b) { a.Swap(&b); }$/;"	f	class:PROTOBUF_FINAL
+swap	backend/service/compiler_service.pb.h	/^  friend void swap(OptimizeRequest& a, OptimizeRequest& b) { a.Swap(&b); }$/;"	f	class:PROTOBUF_FINAL
+swap	backend/service/compiler_service.pb.h	/^  friend void swap(OptimizeResponse& a, OptimizeResponse& b) { a.Swap(&b); }$/;"	f	class:PROTOBUF_FINAL
+swap	backend/service/compiler_service.pb.h	/^  friend void swap(runRequest& a, runRequest& b) { a.Swap(&b); }$/;"	f	class:PROTOBUF_FINAL
+swap	backend/service/compiler_service.pb.h	/^  friend void swap(runResponse& a, runResponse& b) { a.Swap(&b); }$/;"	f	class:PROTOBUF_FINAL
+syntax	backend/service/compiler_service_pb2.py	/^    syntax="proto3",$/;"	v
+target	backend/service/compiler_service.pb.h	/^inline const std::string& CompileRequest::target() const {$/;"	f	class:CompileRequest
+target_	backend/service/compiler_service.pb.h	/^  ::PROTOBUF_NAMESPACE_ID::internal::ArenaStringPtr target_;$/;"	m	class:PROTOBUF_FINAL
+testDir	backend/tests/mlirGym_test/test_mlir_gym_termination.cpp	/^  std::string testDir;$/;"	m	class:MLIRGymCompilerTest	file:
+test_action_eval_and_pipeline_atom	tests/test_actions_action.py	/^def test_action_eval_and_pipeline_atom():$/;"	f
+test_action_mask_and_eval_always_legal	tests/test_actions_executor_and_runner_real.py	/^def test_action_mask_and_eval_always_legal(cfg_from_yaml, ctx_from_yaml):$/;"	f
+test_action_pipeline_strings	tests/test_actions_action.py	/^def test_action_pipeline_strings():$/;"	f
+test_action_space_contains_eval_and_counts_initialized	tests/test_actions_registry.py	/^def test_action_space_contains_eval_and_counts_initialized():$/;"	f
+test_action_with_options_scope_name_and_atom	tests/test_actions_action.py	/^def test_action_with_options_scope_name_and_atom():$/;"	f
+test_affine_symbolic_and_scf_known	tests/observation_classes/analysis/test_loop_analysis.py	/^def test_affine_symbolic_and_scf_known():$/;"	f
+test_affine_view_contains_affine_for	tests/test_view.py	/^def test_affine_view_contains_affine_for(cfg_from_yaml):$/;"	f
+test_analysis_intent	tests/test_view.py	/^def test_analysis_intent(cfg_from_yaml):$/;"	f
+test_can_import	tests/test_packages_exists.py	/^def test_can_import(name):$/;"	f
+test_capacity_padding_and_mask	tests/observation_classes/analysis/test_loop_analysis.py	/^def test_capacity_padding_and_mask():$/;"	f
+test_caps_enforced_by_masking_attempt_counts	tests/test_actions_registry.py	/^def test_caps_enforced_by_masking_attempt_counts():$/;"	f
+test_compile_time_penalty_only_when_over_budget	tests/reward_classes/test_final_log_speedup.py	/^def test_compile_time_penalty_only_when_over_budget():$/;"	f
+test_config_and_context_load	tests/test_actions_executor_and_runner_real.py	/^def test_config_and_context_load(cfg_from_yaml, ctx_from_yaml):$/;"	f
+test_config_from_yaml	tests/test_core_config.py	/^def test_config_from_yaml(globalVar):$/;"	f
+test_config_hash	tests/test_core_config.py	/^def test_config_hash(globalVar):$/;"	f
+test_context_from_yaml	tests/test_core_context.py	/^def test_context_from_yaml(globalVar):$/;"	f
+test_context_reset_for	tests/test_core_context.py	/^def test_context_reset_for(globalVar):$/;"	f
+test_depth_rebase_per_function	tests/observation_classes/analysis/test_loop_analysis.py	/^def test_depth_rebase_per_function():$/;"	f
+test_epsilon_guard_prevents_log_blowup	tests/reward_classes/test_final_log_speedup.py	/^def test_epsilon_guard_prevents_log_blowup():$/;"	f
+test_eval_action_if_available	tests/e2e/test_action_layer.py	/^def test_eval_action_if_available(cfg_from_yaml, ctx_from_yaml):$/;"	f
+test_eval_action_terminates_and_uses_evaluator	tests/test_actions_layer_unit.py	/^def test_eval_action_terminates_and_uses_evaluator(monkeypatch):$/;"	f
+test_evalrunner_apply_success_and_failure	tests/test_actions_evalrunner_unit.py	/^def test_evalrunner_apply_success_and_failure(monkeypatch):$/;"	f
+test_evalrunner_flag_and_build_spec	tests/test_actions_evalrunner_unit.py	/^def test_evalrunner_flag_and_build_spec(monkeypatch):$/;"	f
+test_failure_or_missing_latency_returns_c_penalty	tests/reward_classes/test_final_log_speedup.py	/^def test_failure_or_missing_latency_returns_c_penalty():$/;"	f
+test_final_reward_failure_penalty	tests/e2e/test_rewarder.py	/^def test_final_reward_failure_penalty(cfg_from_yaml, ctx_from_yaml):$/;"	f
+test_final_reward_log_speedup_success	tests/e2e/test_rewarder.py	/^def test_final_reward_log_speedup_success(cfg_from_yaml, ctx_from_yaml):$/;"	f
+test_get_pipeline_command_builds_module_and_func_atoms_in_order	tests/test_actions_registry.py	/^def test_get_pipeline_command_builds_module_and_func_atoms_in_order():$/;"	f
+test_idx_to_action_out_of_range_raises	tests/test_actions_layer_unit.py	/^def test_idx_to_action_out_of_range_raises():$/;"	f
+test_invalid_action_penalized_by_rewarder	tests/e2e/test_rewarder.py	/^def test_invalid_action_penalized_by_rewarder($/;"	f
+test_invalid_masked_action_gets_penalty	tests/test_actions_layer_unit.py	/^def test_invalid_masked_action_gets_penalty(monkeypatch):$/;"	f
+test_iter_args_header_parsing	tests/observation_classes/analysis/test_loop_analysis.py	/^def test_iter_args_header_parsing():$/;"	f
+test_mask_includes_eval_and_respects_preconditions	tests/test_actions_registry.py	/^def test_mask_includes_eval_and_respects_preconditions():$/;"	f
+test_masked_action_nonterminal_small_negative	tests/test_rewards_rewarder.py	/^def test_masked_action_nonterminal_small_negative():$/;"	f
+test_memref_view_contains_scf_for	tests/test_view.py	/^def test_memref_view_contains_scf_for(cfg_from_yaml):$/;"	f
+test_mlir_gym_compiler_simple	tests/test_mlir_gym_compiler.py	/^def test_mlir_gym_compiler_simple(globalVar):$/;"	f
+test_nested_and_parallel	tests/observation_classes/analysis/test_loop_analysis.py	/^def test_nested_and_parallel():$/;"	f
+test_non_eval_action_updates_registry_and_noop_on_unchanged	tests/test_actions_layer_unit.py	/^def test_non_eval_action_updates_registry_and_noop_on_unchanged(monkeypatch):$/;"	f
+test_nonterminal_valid_step_returns_d_reward_passthrough	tests/test_rewards_rewarder.py	/^def test_nonterminal_valid_step_returns_d_reward_passthrough():$/;"	f
+test_noop_window_masks_only_for_same_ir_and_action	tests/test_actions_registry.py	/^def test_noop_window_masks_only_for_same_ir_and_action(monkeypatch):$/;"	f
+test_param_type_casting	tests/reward_classes/test_final_log_speedup.py	/^def test_param_type_casting(globalVar):$/;"	f
+test_passrunner_apply_canonicalize_real	tests/e2e/test_action_layer.py	/^def test_passrunner_apply_canonicalize_real(cfg_from_yaml, ctx_from_yaml):$/;"	f
+test_register_final_decorator_registers_class	tests/test_rewards_interface.py	/^def test_register_final_decorator_registers_class():$/;"	f
+test_register_potential_decorator_registers_class	tests/test_rewards_interface.py	/^def test_register_potential_decorator_registers_class():$/;"	f
+test_registries_exist	tests/test_rewards_interface.py	/^def test_registries_exist():$/;"	f
+test_rename_invariance_loop_id_and_feats	tests/observation_classes/analysis/test_loop_analysis.py	/^def test_rename_invariance_loop_id_and_feats():$/;"	f
+test_requirement_check_all_any_none	tests/test_core_immutable.py	/^def test_requirement_check_all_any_none():$/;"	f
+test_reward_config_defaults	tests/test_rewards_config.py	/^def test_reward_config_defaults():$/;"	f
+test_reward_config_from_path	tests/test_rewards_config.py	/^def test_reward_config_from_path(globalVar):$/;"	f
+test_reward_config_from_yaml	tests/test_rewards_config.py	/^def test_reward_config_from_yaml(tmp_path):$/;"	f
+test_rewarder_factory_from_config_and_terminal_success	tests/test_rewards_rewarder.py	/^def test_rewarder_factory_from_config_and_terminal_success():$/;"	f
+test_rewarder_unknown_final_raises_keyerror	tests/test_rewards_rewarder.py	/^def test_rewarder_unknown_final_raises_keyerror():$/;"	f
+test_runner_apply_canonicalize_real_mlir_opt	tests/test_actions_executor_and_runner_real.py	/^def test_runner_apply_canonicalize_real_mlir_opt(cfg_from_yaml, ctx_from_yaml):$/;"	f
+test_runner_apply_success	tests/test_actions_executor_and_runner_mock.py	/^def test_runner_apply_success(monkeypatch):$/;"	f
+test_runner_apply_timeout	tests/test_actions_executor_and_runner_mock.py	/^def test_runner_apply_timeout(monkeypatch):$/;"	f
+test_runner_apply_verify_fail	tests/test_actions_executor_and_runner_mock.py	/^def test_runner_apply_verify_fail(monkeypatch):$/;"	f
+test_scf_view_contains_scf_for	tests/test_view.py	/^def test_scf_view_contains_scf_for(cfg_from_yaml):$/;"	f
+test_single_loop_literals	tests/observation_classes/analysis/test_loop_analysis.py	/^def test_single_loop_literals():$/;"	f
+test_size_penalty_only_when_over_budget	tests/reward_classes/test_final_log_speedup.py	/^def test_size_penalty_only_when_over_budget():$/;"	f
+test_success_basic_signs	tests/reward_classes/test_final_log_speedup.py	/^def test_success_basic_signs():$/;"	f
+test_sv_engine_observation_contains	tests/e2e/test_sv_engine.py	/^def test_sv_engine_observation_contains(tmp_path, globalVar, cfg_from_yaml):$/;"	f
+test_sv_state	tests/test_sv_state.py	/^def test_sv_state(tmp_path, globalVar, cfg_from_yaml):$/;"	f
+test_terminal_timeout_or_failed_uses_c_penalty	tests/test_rewards_rewarder.py	/^def test_terminal_timeout_or_failed_uses_c_penalty():$/;"	f
+test_truncate_auto_eval_path	tests/e2e/test_rewarder.py	/^def test_truncate_auto_eval_path(cfg_from_yaml, ctx_from_yaml, monkeypatch):$/;"	f
+test_truncated_applies_eval_on_truncate_penalty	tests/test_rewards_rewarder.py	/^def test_truncated_applies_eval_on_truncate_penalty(monkeypatch):$/;"	f
+test_used_action_counts_init_and_increment	tests/test_actions_registry.py	/^def test_used_action_counts_init_and_increment():$/;"	f
+to_dataframe	mlir_env/utils/logger.py	/^    def to_dataframe(self):$/;"	m	class:MetricsLogger
+to_pipeline_flag	mlir_env/actions/action.py	/^    def to_pipeline_flag(self, container: str = "builtin.module") -> str:$/;"	m	class:Action
+tool_dirs	lit_tests/lit.cfg.py	/^tool_dirs = []$/;"	v
+tools	lit_tests/lit.cfg.py	/^tools = ["mlir-opt", "mlir-translate", "FileCheck", "not", "count"]$/;"	v
+translateModule	backend/passes/lib/mlir_termination_compile.cpp	/^bool MLIRGymCompiler::translateModule() {$/;"	f	class:MLIRGymCompiler
+try_tripcount	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^    def try_tripcount(self, op: mlir_ir.Operation) -> tuple[int | None, bool, bool]:$/;"	m	class:ScalarDimResolver
+try_tripcount_parallel	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^    def try_tripcount_parallel($/;"	m	class:ScalarDimResolver
+try_tripcount_single	mlir_env/observations/classes/SV/analysis/utils/loop_utils.py	/^    def try_tripcount_single($/;"	m	class:ScalarDimResolver
+type	backend/service/compiler_service_pb2.py	/^            type=12,$/;"	v
+type	backend/service/compiler_service_pb2.py	/^            type=9,$/;"	v
+unsafe_arena_release_binary	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::unsafe_arena_release_binary() {$/;"	f	class:CompileResponse
+unsafe_arena_release_error	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::unsafe_arena_release_error() {$/;"	f	class:OptimizeResponse
+unsafe_arena_release_ir	backend/service/compiler_service.pb.h	/^inline std::string* CompileResponse::unsafe_arena_release_ir() {$/;"	f	class:CompileResponse
+unsafe_arena_release_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeRequest::unsafe_arena_release_ir_bytes() {$/;"	f	class:OptimizeRequest
+unsafe_arena_release_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* OptimizeResponse::unsafe_arena_release_ir_bytes() {$/;"	f	class:OptimizeResponse
+unsafe_arena_release_ir_bytes	backend/service/compiler_service.pb.h	/^inline std::string* runRequest::unsafe_arena_release_ir_bytes() {$/;"	f	class:runRequest
+unsafe_arena_release_source_code	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::unsafe_arena_release_source_code() {$/;"	f	class:CompileRequest
+unsafe_arena_release_status	backend/service/compiler_service.pb.h	/^inline std::string* runResponse::unsafe_arena_release_status() {$/;"	f	class:runResponse
+unsafe_arena_release_target	backend/service/compiler_service.pb.h	/^inline std::string* CompileRequest::unsafe_arena_release_target() {$/;"	f	class:CompileRequest
+unsafe_arena_set_allocated_binary	backend/service/compiler_service.pb.h	/^inline void CompileResponse::unsafe_arena_set_allocated_binary($/;"	f	class:CompileResponse
+unsafe_arena_set_allocated_error	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::unsafe_arena_set_allocated_error($/;"	f	class:OptimizeResponse
+unsafe_arena_set_allocated_ir	backend/service/compiler_service.pb.h	/^inline void CompileResponse::unsafe_arena_set_allocated_ir(std::string* ir) {$/;"	f	class:CompileResponse
+unsafe_arena_set_allocated_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeRequest::unsafe_arena_set_allocated_ir_bytes($/;"	f	class:OptimizeRequest
+unsafe_arena_set_allocated_ir_bytes	backend/service/compiler_service.pb.h	/^inline void OptimizeResponse::unsafe_arena_set_allocated_ir_bytes($/;"	f	class:OptimizeResponse
+unsafe_arena_set_allocated_ir_bytes	backend/service/compiler_service.pb.h	/^inline void runRequest::unsafe_arena_set_allocated_ir_bytes($/;"	f	class:runRequest
+unsafe_arena_set_allocated_source_code	backend/service/compiler_service.pb.h	/^inline void CompileRequest::unsafe_arena_set_allocated_source_code($/;"	f	class:CompileRequest
+unsafe_arena_set_allocated_status	backend/service/compiler_service.pb.h	/^inline void runResponse::unsafe_arena_set_allocated_status($/;"	f	class:runResponse
+unsafe_arena_set_allocated_target	backend/service/compiler_service.pb.h	/^inline void CompileRequest::unsafe_arena_set_allocated_target($/;"	f	class:CompileRequest
+update	mlir_env/agents/base_agent.py	/^    def update(self, obs, act, reward, term, nxt_obs):$/;"	m	class:RLAgent
+update	mlir_env/agents/policy_based/base_agent.py	/^    def update(self, trajectories):$/;"	m	class:PolicyBasedAgent
+update_using_A2C	mlir_env/agents/policy_based/base_agent.py	/^    def update_using_A2C(self, trajectories):$/;"	m	class:PolicyBasedAgent
+update_using_PPO	mlir_env/agents/policy_based/base_agent.py	/^    def update_using_PPO(self, trajectories):$/;"	m	class:PolicyBasedAgent
+update_using_REINFORCE	mlir_env/agents/policy_based/base_agent.py	/^    def update_using_REINFORCE(self, trajectories):$/;"	m	class:PolicyBasedAgent
+validateEnv	backend/passes/lib/clang_mlir_toolchain.cpp	/^bool ClangCompiler::validateEnv() {$/;"	f	class:ClangCompiler
+value	mlir_env/rewards/interface.py	/^    def value(self, obs: dict, feats: dict | None = None) -> float: ...$/;"	m	class:Potential
+value	tests/test_rewards_interface.py	/^        def value(self, obs: dict, feats=None) -> float:$/;"	m	class:test_register_potential_decorator_registers_class._DummyPotential
+verbose	backend/passes/include/clang_mlir_toolchain.h	/^  bool verbose = false;$/;"	m	struct:CompilerConfig
+view	mlir_env/views/view_runner.py	/^    def view(self, ir_text: str, view: ViewKind) -> str:$/;"	m	class:ViewRunner
+view_runner	mt.py	/^view_runner = ViewRunner(cfg)$/;"	v
+visit	mlir_env/observations/classes/SV/analysis/utils/memory_utils.py	/^    def visit(e, scale=1):$/;"	f	function:_coeffs_from_result_expr
+walk_ops_recursive	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def walk_ops_recursive(op: mlir_ir.Operation):$/;"	f
+walk_regions	mlir_env/observations/classes/SV/analysis/utils/general_utils.py	/^def walk_regions(op: mlir_ir.Operation):$/;"	f
+which	lit_tests/lit.cfg.py	/^def which(tool, extra_dirs):$/;"	f
+wrapper	mlir_env/core/decorator/enforce_method_call.py	/^        def wrapper(instance, *args, **kwargs):$/;"	f	function:enforce_call.decorator
+wrapper	mlir_env/observations/interface.py	/^    def wrapper(cls_state: Type[State]):$/;"	f	function:register_state
+wrapper	mlir_env/rewards/interface.py	/^    def wrapper(cls_final: Type[FinalReward]):$/;"	f	function:register_final
+wrapper	mlir_env/rewards/interface.py	/^    def wrapper(cls_pot: Type[Potential]):$/;"	f	function:register_potential
+writeLLVMIR	backend/passes/lib/mlir_termination_compile.cpp	/^bool MLIRGymCompiler::writeLLVMIR() {$/;"	f	class:MLIRGymCompiler
+~CompileRequest	backend/service/compiler_service.pb.cc	/^CompileRequest::~CompileRequest() {$/;"	f	class:CompileRequest
+~CompileResponse	backend/service/compiler_service.pb.cc	/^CompileResponse::~CompileResponse() {$/;"	f	class:CompileResponse
+~OptimizeRequest	backend/service/compiler_service.pb.cc	/^OptimizeRequest::~OptimizeRequest() {$/;"	f	class:OptimizeRequest
+~OptimizeResponse	backend/service/compiler_service.pb.cc	/^OptimizeResponse::~OptimizeResponse() {$/;"	f	class:OptimizeResponse
+~Service	backend/service/compiler_service.grpc.pb.cc	/^MLIRService::Service::~Service() {}$/;"	f	class:MLIRService::Service
+~StubInterface	backend/service/compiler_service.grpc.pb.h	/^    virtual ~StubInterface() {}$/;"	f	class:final::StubInterface
+~experimental_async_interface	backend/service/compiler_service.grpc.pb.h	/^      virtual ~experimental_async_interface() {}$/;"	f	class:final::StubInterface::experimental_async_interface
+~runRequest	backend/service/compiler_service.pb.cc	/^runRequest::~runRequest() {$/;"	f	class:runRequest
+~runResponse	backend/service/compiler_service.pb.cc	/^runResponse::~runResponse() {$/;"	f	class:runResponse

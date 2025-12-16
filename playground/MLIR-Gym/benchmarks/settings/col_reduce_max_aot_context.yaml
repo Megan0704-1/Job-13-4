@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/COL_REDUCE_MAX/col_reduce_max.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "col_reduce_max"
+L0: 24610.0
+C0: 10
+B0: 1.70
+max_steps: 20

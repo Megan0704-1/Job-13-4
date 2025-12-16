@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/RMS_NORM/rms_norm.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "rms_norm"
+L0: 5935.0
+C0: 10
+B0: 2.10
+max_steps: 20

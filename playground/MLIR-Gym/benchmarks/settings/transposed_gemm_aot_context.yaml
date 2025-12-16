@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/TRANSPOSED_GEMM/transposed_gemm.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "transposed_gemm"
+L0: 15350.0
+C0: 10
+B0: 1.74
+max_steps: 20

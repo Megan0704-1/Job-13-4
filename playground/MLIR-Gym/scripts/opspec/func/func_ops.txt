@@ -1,0 +1,5 @@
+func.call
+func.call_indirect
+func.constant
+func.func
+func.return

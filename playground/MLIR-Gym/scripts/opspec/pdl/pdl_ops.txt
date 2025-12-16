@@ -1,0 +1,15 @@
+pdl.apply_native_constraint
+pdl.apply_native_rewrite
+pdl.attribute
+pdl.erase
+pdl.operand
+pdl.operands
+pdl.operation
+pdl.pattern
+pdl.range
+pdl.replace
+pdl.result
+pdl.results
+pdl.rewrite
+pdl.type
+pdl.types

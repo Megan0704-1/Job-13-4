@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/LAYER_NORM/layer_norm.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "layer_norm"
+L0: 5365.0
+C0: 10
+B0: 2.31
+max_steps: 20

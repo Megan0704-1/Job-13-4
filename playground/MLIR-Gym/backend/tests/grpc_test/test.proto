@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package myproto;
+
+// A simple service with one RPC: "test"
+service TestService {
+  rpc test(msgRequest) returns (msgResponse);
+}
+
+message msgRequest {
+  string name = 1;
+}
+
+message msgResponse {
+  string greeting = 1;
+}

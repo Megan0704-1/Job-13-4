@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/MAX_POOL_2D/max_pool_2d.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "max_pool_2d"
+L0: 45565.0
+C0: 10
+B0: 2.14
+max_steps: 20

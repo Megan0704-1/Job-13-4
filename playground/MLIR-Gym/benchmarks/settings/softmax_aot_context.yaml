@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/SOFTMAX/softmax.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "softmax"
+L0: 10545.0
+C0: 10
+B0: 1.77
+max_steps: 20

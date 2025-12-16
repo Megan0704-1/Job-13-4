@@ -1,0 +1,2 @@
+state: structured_vector
+state_params_yml: "./settings/observations/structured_vector_params.yml"

@@ -1,0 +1,20 @@
+algo: ppo_gnn
+out_path: "out/ppo_log.txt" # log purpose, model output @ ppo.save_path 
+env:
+  cfg_path: "benchmarks/settings/gemm_config.yaml"
+  ctx_path: "benchmarks/settings/mlp_bias_relu_aot_context.yaml"
+  state_cfg_path: "settings/observations/graph_config.yml" 
+  rounds: 20
+ppo:
+  timesteps: 300000
+  n_steps: 1000
+  batch_size: 256
+  lr: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  ent_coef: 0.01
+  clip_range: 0.2
+  gcn_hidden: 128
+  gcn_out: 128
+  dropout: 0.1
+  save_path: "out/ppo_gnn_model.zip"

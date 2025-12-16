@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mlir_playground"
+version = "0.0.1"
+description = "An example MLIR environment setup"
+authors = [
+    { name = "Megan Kuo", email = "megankuo@asu.edu" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "gymnasium",
+    "pre-commit",
+    "grpcio",
+    "grpcio-tools",
+    "numpy",
+    "stable-baselines3",
+    "sb3-contrib",
+    "torch" # pytorch 2.8 + cu 12.8
+]
+
+[tool.hatch.build.targets.wheel]
+packages=["$HOME/workspace/mlir_playground"]
+
+[tool.ruff]
+exclude = ["$HOME/workspace/mlir_playground/backend"]
+lint.ignore = ["F401", "F821"]

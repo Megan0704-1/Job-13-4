@@ -1,0 +1,9 @@
+# dot_prod_aot_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/GEMV/gemv.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "gemv"
+L0: 220
+C0: 10
+B0: 1.68
+max_steps: 20

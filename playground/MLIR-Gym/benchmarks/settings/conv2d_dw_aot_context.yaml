@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/CONV2D_DW/conv2d_dw.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "conv2d_dw"
+L0: 20400.0
+C0: 10
+B0: 2.46
+max_steps: 20

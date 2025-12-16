@@ -1,0 +1,23 @@
+# settings/log_speedup.yaml
+
+final: log_speedup
+potential: none
+
+eval_on_truncate_penalty: 0.05
+
+gamma: 0.99
+
+final_params:
+  c_penalty: 10.0
+  lambda_ct: 0.0
+  alpha_ct: 1.2
+  beta_kb: 0.0
+  gamma_kb: 1.0
+  corrections: 1e-6
+
+potential_params: {}
+
+step_params:
+  masked_penalty: 0.05
+  eval_on_truncate_penalty: 0.05
+  masked_penalty_if_masked_sampling: false

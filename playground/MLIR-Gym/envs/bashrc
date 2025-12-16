@@ -1,0 +1,99 @@
+# ~/.bashrc: executed by bash(1) for non-login shells.
+
+[ -z "$PS1" ] && return
+
+# History settings
+HISTCONTROL=ignoredups:ignorespace
+shopt -s histappend
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# Window size check
+shopt -s checkwinsize
+
+# Color prompt
+force_color_prompt=yes
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+        color_prompt=yes
+    else
+        color_prompt=
+    fi
+fi
+
+# Prompt setup
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+
+# Terminal title
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+esac
+
+# Aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Conda initialization
+__conda_setup="$('/root/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/root/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/root/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/root/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+# NVM initialization
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# Environment paths
+export PATH="$PATH:/root/.local/bin:/root/.modular/bin"
+export PYTHONPATH="$PYTHONPATH:/root/compiler_gym/mlir_playground"
+
+# CMake configurations
+export CMAKE_PREFIX_PATH="/root/grpc/install:/root/protobuf/install:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/root/grpc/install/lib:/root/protobuf/install/lib:$LD_LIBRARY_PATH"
+
+# Auto-activate conda environment
+auto_activate_conda_env() {
+    local dir="$PWD"
+    while [[ "$dir" != "/" ]]; do
+        if [[ "$(basename "$dir")" == "compiler_gym" ]]; then
+            conda activate mlir-cuda
+            return
+        fi
+        dir=$(dirname "$dir")
+    done
+    conda deactivate 2>/dev/null
+}
+PROMPT_COMMAND="auto_activate_conda_env; $PROMPT_COMMAND"
+
+# mlir gym specific
+export PYTHONPATH="/root/compiler_gym/mlir_playground:$PYTHONPATH"
+export PYTHONPATH="/root/compiler_gym/mlir_playground/install/lib/python:$PYTHONPATH"
+export gRPC_DIR="/root/grpc/install/lib/cmake/grpc"
+export LD_LIBRARY_PATH="/root/llvm-project/build/lib"$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/root/compiler_gym/mlir_playground/install/lib"$LD_LIBRARY_PATH
+
+export LLVM_BUILDDIR="/root/llvm-project/build"

@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/TOPK/topk.mlir"
+pipeline_path: "./benchmarks/baseline/topk_pipeline"
+mlir_id: "topK"
+L0: 28770.0
+C0: 20
+B0: 2.45
+max_steps: 20

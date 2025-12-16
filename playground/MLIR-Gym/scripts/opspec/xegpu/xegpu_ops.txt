@@ -1,0 +1,17 @@
+xegpu.alloc_nbarrier
+xegpu.atomic_rmw
+xegpu.create_nd_tdesc
+xegpu.create_tdesc
+xegpu.dpas
+xegpu.fence
+xegpu.init_nbarrier
+xegpu.load
+xegpu.load_nd
+xegpu.nbarrier_arrive
+xegpu.nbarrier_wait
+xegpu.prefetch
+xegpu.prefetch_nd
+xegpu.store
+xegpu.store_nd
+xegpu.update_nd_offset
+xegpu.update_offset

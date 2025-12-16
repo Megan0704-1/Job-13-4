@@ -1,0 +1,5 @@
+[flake8]
+ignore = E203
+max-line-length = 120
+exclude = backend/service/*_pb2.py, backend/service/*_pb2_grpc.py
+extend-ignore = F401, E266, F821, W503

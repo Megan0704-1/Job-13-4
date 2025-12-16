@@ -1,0 +1,10 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/FLASH/flash_attention.mlir"
+pipeline_path: "./benchmarks/baseline/mha_pipeline"
+mlir_id: "flash_attention"
+L0: 32285.0
+C0: 10
+B0: 8.16
+max_steps: 20
+view_option: "scf"

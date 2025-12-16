@@ -1,0 +1,15 @@
+affine.dma_start
+affine.dma_wait
+affine.apply
+affine.delinearize_index
+affine.for
+affine.if
+affine.load
+affine.max
+affine.min
+affine.parallel
+affine.prefetch
+affine.store
+affine.vector_load
+affine.vector_store
+affine.yield

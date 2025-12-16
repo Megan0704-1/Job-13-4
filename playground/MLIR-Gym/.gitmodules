@@ -1,0 +1,3 @@
+[submodule "projects/encoder"]
+	path = projects/encoder
+	url = git@github.com:Megan0704-1/MLIR-Encoder.git

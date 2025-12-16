@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/AVG_POOL_2D/avg_pool_2d.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "avg_pool_2d"
+L0: 39115.0
+C0: 10
+B0: 1.92
+max_steps: 20

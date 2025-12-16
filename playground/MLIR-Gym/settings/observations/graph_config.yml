@@ -1,0 +1,2 @@
+state: "gnn_dataflow"
+state_params_yml: "./settings/observations/graph_params.yml"

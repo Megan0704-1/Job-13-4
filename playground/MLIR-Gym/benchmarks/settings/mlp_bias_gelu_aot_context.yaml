@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/MLP_BIAS_GELU/mlp_bias_gelu.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "mlp_bias_gelu"
+L0: 37555.0
+C0: 10
+B0: 2.66
+max_steps: 20

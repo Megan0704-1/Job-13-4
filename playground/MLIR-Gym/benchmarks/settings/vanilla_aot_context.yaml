@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/VANILLA/vanilla_attention.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "vanilla_attention"
+L0: 29420.0
+C0: 20
+B0: 5.11
+max_steps: 20

@@ -1,0 +1,12 @@
+scf.condition
+scf.execute_region
+scf.for
+scf.forall
+scf.forall.in_parallel
+scf.if
+scf.index_switch
+scf.parallel
+scf.reduce
+scf.reduce.return
+scf.while
+scf.yield

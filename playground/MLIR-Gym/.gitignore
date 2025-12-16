@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+tags/
+
+# build systems
+build/
+*/build/
+compile_command*
+*.so
+
+# mlir_playground
+checkpoints/
+snapshots/
+Output/
+.original.out
+.custom.out
+
+# lit tests
+.lit*
+
+# log and results
+*.log
+*.result

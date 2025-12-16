@@ -1,0 +1,9 @@
+# gemm_context.yaml
+backend: cpu
+mlir_path: "./benchmarks/CONV_PW1x1/conv_pw1x1.mlir"
+pipeline_path: "./benchmarks/baseline/gemm_pipeline"
+mlir_id: "conv_pointwise_1x1"
+L0: 23155.0
+C0: 10
+B0: 1.96
+max_steps: 20

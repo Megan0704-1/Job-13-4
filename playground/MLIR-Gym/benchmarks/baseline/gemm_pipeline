@@ -1,0 +1,2 @@
+builtin.module(func.func(canonicalize,cse),linalg-generalize-named-ops,one-shot-bufferize{bufferize-function-boundaries},convert-linalg-to-affine-loops,convert-linalg-to-loops,lower-affine,convert-vector-to-scf,convert-scf-to-cf,convert-math-to-llvm,convert-arith-to-llvm,convert-vector-to-llvm,convert-func-to-llvm,convert-cf-to-llvm,convert-arith-to-llvm,finalize-memref-to-llvm,reconcile-unrealized-casts)
+

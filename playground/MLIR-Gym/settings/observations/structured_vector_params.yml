@@ -1,0 +1,15 @@
+loopParams:
+  max_loops: 20
+  normalize_depth: True
+
+memoryParams:
+  vector_width_elements: 8
+  compute_bonus: True
+
+probeParams:
+historyParams:
+hardwareInfo:
+packerParams:
+  include_channels:
+    loop
+    mems

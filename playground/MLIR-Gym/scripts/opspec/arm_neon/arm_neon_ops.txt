@@ -1,0 +1,6 @@
+arm_neon.2d.sdot
+arm_neon.intr.sdot
+arm_neon.intr.smmla
+arm_neon.intr.smull
+arm_neon.intr.ummla
+arm_neon.intr.usmmla

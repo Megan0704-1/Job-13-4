@@ -1,0 +1,15 @@
+amdgpu.dpp
+amdgpu.ext_packed_fp8
+amdgpu.lds_barrier
+amdgpu.mfma
+amdgpu.packed_stoch_round_fp8
+amdgpu.packed_trunc_2xfp8
+amdgpu.raw_buffer_atomic_cmpswap
+amdgpu.raw_buffer_atomic_fadd
+amdgpu.raw_buffer_atomic_fmax
+amdgpu.raw_buffer_atomic_smax
+amdgpu.raw_buffer_atomic_umin
+amdgpu.raw_buffer_load
+amdgpu.raw_buffer_store
+amdgpu.sched_barrier
+amdgpu.wmma
