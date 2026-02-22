@@ -1,29 +1,3 @@
-#Author: Mike Jacobi
-#Test and Update: Xu Zhang
-#Thanks to Jeff Knockel, Geoff Reedy, Matthew Hall, and Geoff Alexander for
-#suggesting fixes to communication.py
-#De-bugged, tested and edited: Tim C'de Baca and John Montoya 7/2014
-#Virtual Werewolves
-#Collaborators: Roya Ensafi, Jed Crandall
-#Cybersecurity, Spring 2012
-#This script has generic helper functions used by the Mafia server and clients
-
-#Copyright (c) 2012 Mike Jacobi, Xu Zhang, Roya Ensafi, Jed Crandall
-#This file is part of Virtual Werewolf Game.
-
-#Virtual werewolf is free software: you can redistribute it and/or modify
-#it under the terms of the GNU General Public License as published by
-#the Free Software Foundation, either version 3 of the License, or
-#(at your option) any later version.
-#Virtual werewolf is distributed in the hope that it will be useful,
-#but WITHOUT ANY WARRANTY; without even the implied warranty of
-#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#GNU General Public License for more details.
-
-#You should have received a copy of the GNU General Public License
-#along with Virtual werewolf.  If not, see <http://www.gnu.org/licenses/>.
-
-
 import os
 import time
 import threading
@@ -234,6 +208,7 @@ def multiRecv(player, players):
 
         #if someones giving a deathspeech
         if deathspeech and player == deadGuy:
+            # broadcast to all players except player itself.
             broadcast('%s-%s'%(player, msg[2]), modPlayers(player, all))
 
         #if were voting
